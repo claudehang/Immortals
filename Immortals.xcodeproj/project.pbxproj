@@ -12,6 +12,7 @@
 		EFB570CA206F9B5300C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570C9206F9B5300C3AD35 /* main.cpp */; };
 		EFB570D5206F9F9800C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570D4206F9F9800C3AD35 /* main.cpp */; };
 		EFB570E0206FA25D00C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570DF206FA25D00C3AD35 /* main.cpp */; };
+		EFB570EB206FA83D00C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570EA206FA83D00C3AD35 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +61,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		EFB570E6206FA83D00C3AD35 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +83,8 @@
 		EFB570D4206F9F9800C3AD35 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFB570DD206FA25D00C3AD35 /* 103. Linked List Cycle II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "103. Linked List Cycle II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB570DF206FA25D00C3AD35 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFB570E8206FA83D00C3AD35 /* 96. Partition List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "96. Partition List"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB570EA206FA83D00C3AD35 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFB570E5206FA83D00C3AD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -122,6 +141,7 @@
 				EFB570C8206F9B5300C3AD35 /* 380. Intersection of Two Linked Lists */,
 				EFB570D3206F9F9800C3AD35 /* 102. Linked List Cycle */,
 				EFB570DE206FA25D00C3AD35 /* 103. Linked List Cycle II */,
+				EFB570E9206FA83D00C3AD35 /* 96. Partition List */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,6 +154,7 @@
 				EFB570C7206F9B5300C3AD35 /* 380. Intersection of Two Linked Lists */,
 				EFB570D2206F9F9800C3AD35 /* 102. Linked List Cycle */,
 				EFB570DD206FA25D00C3AD35 /* 103. Linked List Cycle II */,
+				EFB570E8206FA83D00C3AD35 /* 96. Partition List */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,6 +197,14 @@
 				EFB570DF206FA25D00C3AD35 /* main.cpp */,
 			);
 			path = "103. Linked List Cycle II";
+			sourceTree = "<group>";
+		};
+		EFB570E9206FA83D00C3AD35 /* 96. Partition List */ = {
+			isa = PBXGroup;
+			children = (
+				EFB570EA206FA83D00C3AD35 /* main.cpp */,
+			);
+			path = "96. Partition List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +295,23 @@
 			productReference = EFB570DD206FA25D00C3AD35 /* 103. Linked List Cycle II */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFB570E7206FA83D00C3AD35 /* 96. Partition List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB570EC206FA83D00C3AD35 /* Build configuration list for PBXNativeTarget "96. Partition List" */;
+			buildPhases = (
+				EFB570E4206FA83D00C3AD35 /* Sources */,
+				EFB570E5206FA83D00C3AD35 /* Frameworks */,
+				EFB570E6206FA83D00C3AD35 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "96. Partition List";
+			productName = "96. Partition List";
+			productReference = EFB570E8206FA83D00C3AD35 /* 96. Partition List */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -295,6 +341,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					EFB570E7206FA83D00C3AD35 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = EFB57083206F6E8000C3AD35 /* Build configuration list for PBXProject "Immortals" */;
@@ -314,6 +364,7 @@
 				EFB570C6206F9B5300C3AD35 /* 380. Intersection of Two Linked Lists */,
 				EFB570D1206F9F9800C3AD35 /* 102. Linked List Cycle */,
 				EFB570DC206FA25D00C3AD35 /* 103. Linked List Cycle II */,
+				EFB570E7206FA83D00C3AD35 /* 96. Partition List */,
 			);
 		};
 /* End PBXProject section */
@@ -356,6 +407,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFB570E0206FA25D00C3AD35 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB570E4206FA83D00C3AD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB570EB206FA83D00C3AD35 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +604,22 @@
 			};
 			name = Release;
 		};
+		EFB570ED206FA83D00C3AD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFB570EE206FA83D00C3AD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -598,6 +673,15 @@
 			buildConfigurations = (
 				EFB570E2206FA25D00C3AD35 /* Debug */,
 				EFB570E3206FA25D00C3AD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB570EC206FA83D00C3AD35 /* Build configuration list for PBXNativeTarget "96. Partition List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB570ED206FA83D00C3AD35 /* Debug */,
+				EFB570EE206FA83D00C3AD35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
