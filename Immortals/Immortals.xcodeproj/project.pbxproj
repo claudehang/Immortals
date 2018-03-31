@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF90371B206F59EB00DBFB0B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF90371A206F59EB00DBFB0B /* main.cpp */; };
+		EFB570C0206F768800C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570BF206F768800C3AD35 /* main.cpp */; };
+		EFB570C2206F773A00C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570C1206F773A00C3AD35 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EF903715206F59EB00DBFB0B /* CopyFiles */ = {
+		EFB570A0206F753A00C3AD35 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFB570B6206F764600C3AD35 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +33,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EF903717206F59EB00DBFB0B /* Immortals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Immortals; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF90371A206F59EB00DBFB0B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFB570A2206F753A00C3AD35 /* 36. Reverse Linked List II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "36. Reverse Linked List II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB570B8206F764600C3AD35 /* 35. Reverse Linked List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "35. Reverse Linked List"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB570BF206F768800C3AD35 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFB570C1206F773A00C3AD35 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF903714206F59EB00DBFB0B /* Frameworks */ = {
+		EFB5709F206F753A00C3AD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB570B5206F764600C3AD35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,34 +57,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF90370E206F59EB00DBFB0B = {
+		EFB5707F206F6E8000C3AD35 = {
 			isa = PBXGroup;
 			children = (
-				EF903719206F59EB00DBFB0B /* Immortals */,
-				EF903718206F59EB00DBFB0B /* Products */,
+				EFB570A3206F753A00C3AD35 /* 36. Reverse Linked List II */,
+				EFB570B9206F764600C3AD35 /* 35. Reverse Linked List */,
+				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EF903718206F59EB00DBFB0B /* Products */ = {
+		EFB57089206F6E8000C3AD35 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF903717206F59EB00DBFB0B /* Immortals */,
+				EFB570A2206F753A00C3AD35 /* 36. Reverse Linked List II */,
+				EFB570B8206F764600C3AD35 /* 35. Reverse Linked List */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF903719206F59EB00DBFB0B /* Immortals */ = {
+		EFB570A3206F753A00C3AD35 /* 36. Reverse Linked List II */ = {
 			isa = PBXGroup;
 			children = (
-				EF903722206F5A2600DBFB0B /* 35. Reverse Linked List */,
+				EFB570C1206F773A00C3AD35 /* main.cpp */,
 			);
-			path = Immortals;
+			path = "36. Reverse Linked List II";
 			sourceTree = "<group>";
 		};
-		EF903722206F5A2600DBFB0B /* 35. Reverse Linked List */ = {
+		EFB570B9206F764600C3AD35 /* 35. Reverse Linked List */ = {
 			isa = PBXGroup;
 			children = (
-				EF90371A206F59EB00DBFB0B /* main.cpp */,
+				EFB570BF206F768800C3AD35 /* main.cpp */,
 			);
 			path = "35. Reverse Linked List";
 			sourceTree = "<group>";
@@ -73,68 +94,98 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF903716206F59EB00DBFB0B /* Immortals */ = {
+		EFB570A1206F753A00C3AD35 /* 36. Reverse Linked List II */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF90371E206F59EB00DBFB0B /* Build configuration list for PBXNativeTarget "Immortals" */;
+			buildConfigurationList = EFB570A6206F753A00C3AD35 /* Build configuration list for PBXNativeTarget "36. Reverse Linked List II" */;
 			buildPhases = (
-				EF903713206F59EB00DBFB0B /* Sources */,
-				EF903714206F59EB00DBFB0B /* Frameworks */,
-				EF903715206F59EB00DBFB0B /* CopyFiles */,
+				EFB5709E206F753A00C3AD35 /* Sources */,
+				EFB5709F206F753A00C3AD35 /* Frameworks */,
+				EFB570A0206F753A00C3AD35 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Immortals;
-			productName = Immortals;
-			productReference = EF903717206F59EB00DBFB0B /* Immortals */;
+			name = "36. Reverse Linked List II";
+			productName = "36. Reverse Linked List II";
+			productReference = EFB570A2206F753A00C3AD35 /* 36. Reverse Linked List II */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFB570B7206F764600C3AD35 /* 35. Reverse Linked List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB570BC206F764600C3AD35 /* Build configuration list for PBXNativeTarget "35. Reverse Linked List" */;
+			buildPhases = (
+				EFB570B4206F764600C3AD35 /* Sources */,
+				EFB570B5206F764600C3AD35 /* Frameworks */,
+				EFB570B6206F764600C3AD35 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "35. Reverse Linked List";
+			productName = "35. Reverse Linked List";
+			productReference = EFB570B8206F764600C3AD35 /* 35. Reverse Linked List */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EF90370F206F59EB00DBFB0B /* Project object */ = {
+		EFB57080206F6E8000C3AD35 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Shuyu;
 				TargetAttributes = {
-					EF903716206F59EB00DBFB0B = {
+					EFB570A1206F753A00C3AD35 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EFB570B7206F764600C3AD35 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = EF903712206F59EB00DBFB0B /* Build configuration list for PBXProject "Immortals" */;
+			buildConfigurationList = EFB57083206F6E8000C3AD35 /* Build configuration list for PBXProject "Immortals" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EF90370E206F59EB00DBFB0B;
-			productRefGroup = EF903718206F59EB00DBFB0B /* Products */;
+			mainGroup = EFB5707F206F6E8000C3AD35;
+			productRefGroup = EFB57089206F6E8000C3AD35 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF903716206F59EB00DBFB0B /* Immortals */,
+				EFB570A1206F753A00C3AD35 /* 36. Reverse Linked List II */,
+				EFB570B7206F764600C3AD35 /* 35. Reverse Linked List */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EF903713206F59EB00DBFB0B /* Sources */ = {
+		EFB5709E206F753A00C3AD35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF90371B206F59EB00DBFB0B /* main.cpp in Sources */,
+				EFB570C2206F773A00C3AD35 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB570B4206F764600C3AD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB570C0206F768800C3AD35 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EF90371C206F59EB00DBFB0B /* Debug */ = {
+		EFB5708D206F6E8000C3AD35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		EF90371D206F59EB00DBFB0B /* Release */ = {
+		EFB5708E206F6E8000C3AD35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +288,7 @@
 			};
 			name = Release;
 		};
-		EF90371F206F59EB00DBFB0B /* Debug */ = {
+		EFB570A7206F753A00C3AD35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -245,7 +296,23 @@
 			};
 			name = Debug;
 		};
-		EF903720206F59EB00DBFB0B /* Release */ = {
+		EFB570A8206F753A00C3AD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFB570BD206F764600C3AD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFB570BE206F764600C3AD35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -256,25 +323,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF903712206F59EB00DBFB0B /* Build configuration list for PBXProject "Immortals" */ = {
+		EFB57083206F6E8000C3AD35 /* Build configuration list for PBXProject "Immortals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF90371C206F59EB00DBFB0B /* Debug */,
-				EF90371D206F59EB00DBFB0B /* Release */,
+				EFB5708D206F6E8000C3AD35 /* Debug */,
+				EFB5708E206F6E8000C3AD35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF90371E206F59EB00DBFB0B /* Build configuration list for PBXNativeTarget "Immortals" */ = {
+		EFB570A6206F753A00C3AD35 /* Build configuration list for PBXNativeTarget "36. Reverse Linked List II" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF90371F206F59EB00DBFB0B /* Debug */,
-				EF903720206F59EB00DBFB0B /* Release */,
+				EFB570A7206F753A00C3AD35 /* Debug */,
+				EFB570A8206F753A00C3AD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB570BC206F764600C3AD35 /* Build configuration list for PBXNativeTarget "35. Reverse Linked List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB570BD206F764600C3AD35 /* Debug */,
+				EFB570BE206F764600C3AD35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EF90370F206F59EB00DBFB0B /* Project object */;
+	rootObject = EFB57080206F6E8000C3AD35 /* Project object */;
 }
