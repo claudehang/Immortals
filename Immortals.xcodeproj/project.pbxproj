@@ -57,9 +57,17 @@
 		EF903719206F59EB00DBFB0B /* Immortals */ = {
 			isa = PBXGroup;
 			children = (
-				EF90371A206F59EB00DBFB0B /* main.cpp */,
+				EF903722206F5A2600DBFB0B /* 35. Reverse Linked List */,
 			);
 			path = Immortals;
+			sourceTree = "<group>";
+		};
+		EF903722206F5A2600DBFB0B /* 35. Reverse Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				EF90371A206F59EB00DBFB0B /* main.cpp */,
+			);
+			path = "35. Reverse Linked List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
