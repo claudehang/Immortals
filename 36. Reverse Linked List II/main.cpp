@@ -29,21 +29,21 @@ public:
      */
     ListNode * reverseBetween(ListNode * head, int m, int n){
         // Calculate change length.
-        int change_length = m - n + 1;
+        int change_length = n - m + 1;
         // Declare reversed head.
         ListNode *head_result = head;
         // Find node where we start reverse.
-        ListNode *node_reversal_hook = NULL;
+        ListNode *node_reversal_head_hook = NULL;
         while (head && --m) {
-            node_reversal_hook = head;
+            node_reversal_head_hook = head;
             head = head->next;
         }
         // Cache reversal tail.
-        ListNode *tail_reversal = head;
+        ListNode *node_reversal_tail = head;
         // Declare head for reversal part.
         ListNode *head_reversed = NULL;
         // Start reverse.
-        while (head && --change_length) {
+        while (head && change_length) {
             // Cache next node.
             ListNode *node_next = head->next;
             // Update next node of head with reversed head node. (Because current head is tail.)
@@ -52,11 +52,14 @@ public:
             head_reversed = head;
             // Update node start.
             head = node_next;
+            // Decrase change length.
+            change_length--;
         }
-        tail_reversal->next = head;
-        
-        if (node_reversal_hook) {
-            node_reversal_hook->next = head_reversed;
+        // Link tail with real head.
+        node_reversal_tail->next = head;
+        // Link head with tail if need.
+        if (node_reversal_head_hook) {
+            node_reversal_head_hook->next = head_reversed;
         } else {
             head_result = head_reversed;
         }
