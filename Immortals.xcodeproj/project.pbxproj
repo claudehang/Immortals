@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF37C8EE2070B9F5005538ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF37C8ED2070B9F5005538ED /* main.cpp */; };
+		EF37C8F92070BE08005538ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF37C8F82070BE08005538ED /* main.cpp */; };
 		EFB570C0206F768800C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570BF206F768800C3AD35 /* main.cpp */; };
 		EFB570C2206F773A00C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570C1206F773A00C3AD35 /* main.cpp */; };
 		EFB570CA206F9B5300C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570C9206F9B5300C3AD35 /* main.cpp */; };
@@ -19,6 +20,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EF37C8E92070B9F5005538ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF37C8F42070BE08005538ED /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -95,6 +105,8 @@
 /* Begin PBXFileReference section */
 		EF37C8EB2070B9F5005538ED /* 165. Merge Two Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "165. Merge Two Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF37C8ED2070B9F5005538ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF37C8F62070BE08005538ED /* 104. Merge K Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "104. Merge K Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF37C8F82070BE08005538ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFB570A2206F753A00C3AD35 /* 36. Reverse Linked List II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "36. Reverse Linked List II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB570B8206F764600C3AD35 /* 35. Reverse Linked List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "35. Reverse Linked List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB570BF206F768800C3AD35 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -113,6 +125,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF37C8E82070B9F5005538ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF37C8F32070BE08005538ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -179,6 +198,14 @@
 			path = "165. Merge Two Sorted Lists";
 			sourceTree = "<group>";
 		};
+		EF37C8F72070BE08005538ED /* 104. Merge K Sorted Lists */ = {
+			isa = PBXGroup;
+			children = (
+				EF37C8F82070BE08005538ED /* main.cpp */,
+			);
+			path = "104. Merge K Sorted Lists";
+			sourceTree = "<group>";
+		};
 		EFB5707F206F6E8000C3AD35 = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +217,7 @@
 				EFB570E9206FA83D00C3AD35 /* 96. Partition List */,
 				EFB570F4206FAB7F00C3AD35 /* 105. Copy List with Random Pointer */,
 				EF37C8EC2070B9F5005538ED /* 165. Merge Two Sorted Lists */,
+				EF37C8F72070BE08005538ED /* 104. Merge K Sorted Lists */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -205,6 +233,7 @@
 				EFB570E8206FA83D00C3AD35 /* 96. Partition List */,
 				EFB570F3206FAB7F00C3AD35 /* 105. Copy List with Random Pointer */,
 				EF37C8EB2070B9F5005538ED /* 165. Merge Two Sorted Lists */,
+				EF37C8F62070BE08005538ED /* 104. Merge K Sorted Lists */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -283,6 +312,23 @@
 			name = "165. Merge Two Sorted Lists";
 			productName = "165. Merge Two Sorted Lists";
 			productReference = EF37C8EB2070B9F5005538ED /* 165. Merge Two Sorted Lists */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF37C8F52070BE08005538ED /* 104. Merge K Sorted Lists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF37C8FA2070BE08005538ED /* Build configuration list for PBXNativeTarget "104. Merge K Sorted Lists" */;
+			buildPhases = (
+				EF37C8F22070BE08005538ED /* Sources */,
+				EF37C8F32070BE08005538ED /* Frameworks */,
+				EF37C8F42070BE08005538ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "104. Merge K Sorted Lists";
+			productName = "104. Merge K Sorted Lists";
+			productReference = EF37C8F62070BE08005538ED /* 104. Merge K Sorted Lists */;
 			productType = "com.apple.product-type.tool";
 		};
 		EFB570A1206F753A00C3AD35 /* 36. Reverse Linked List II */ = {
@@ -417,6 +463,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					EF37C8F52070BE08005538ED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					EFB570A1206F753A00C3AD35 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -467,6 +517,7 @@
 				EFB570E7206FA83D00C3AD35 /* 96. Partition List */,
 				EFB570F2206FAB7F00C3AD35 /* 105. Copy List with Random Pointer */,
 				EF37C8EA2070B9F5005538ED /* 165. Merge Two Sorted Lists */,
+				EF37C8F52070BE08005538ED /* 104. Merge K Sorted Lists */,
 			);
 		};
 /* End PBXProject section */
@@ -477,6 +528,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF37C8EE2070B9F5005538ED /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF37C8F22070BE08005538ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF37C8F92070BE08005538ED /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +607,22 @@
 			name = Debug;
 		};
 		EF37C8F02070B9F5005538ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF37C8FB2070BE08005538ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF37C8FC2070BE08005538ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -778,6 +853,15 @@
 			buildConfigurations = (
 				EF37C8EF2070B9F5005538ED /* Debug */,
 				EF37C8F02070B9F5005538ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF37C8FA2070BE08005538ED /* Build configuration list for PBXNativeTarget "104. Merge K Sorted Lists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF37C8FB2070BE08005538ED /* Debug */,
+				EF37C8FC2070BE08005538ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
