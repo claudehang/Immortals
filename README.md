@@ -3,6 +3,7 @@ Immortals is a repo that implements problems on LintCode.
 
 # Content
 
++ [5. Kth Largest Element](http://www.lintcode.com/en/problem/kth-largest-element/)     
 + [35. Reverse Linked List](http://www.lintcode.com/en/problem/reverse-linked-list/)	 
 + [36. Reverse Linked List II](http://www.lintcode.com/en/problem/reverse-linked-list-ii/)	 
 + [96. Partition List](http://www.lintcode.com/en/problem/partition-list/)    
