@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF06C50F2073602E009960B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF06C50E2073602E009960B9 /* main.cpp */; };
+		EF06C51A20736320009960B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF06C51920736320009960B9 /* main.cpp */; };
 		EF37C8EE2070B9F5005538ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF37C8ED2070B9F5005538ED /* main.cpp */; };
 		EF37C8F92070BE08005538ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF37C8F82070BE08005538ED /* main.cpp */; };
 		EFB570C0206F768800C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570BF206F768800C3AD35 /* main.cpp */; };
@@ -21,6 +22,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EF06C50A2073602E009960B9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF06C51520736320009960B9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -115,6 +125,8 @@
 /* Begin PBXFileReference section */
 		EF06C50C2073602E009960B9 /* 5. Kth Largest Element */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5. Kth Largest Element"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF06C50E2073602E009960B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF06C51720736320009960B9 /* 81. Data Stream Median */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "81. Data Stream Median"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF06C51920736320009960B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF37C8EB2070B9F5005538ED /* 165. Merge Two Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "165. Merge Two Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF37C8ED2070B9F5005538ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF37C8F62070BE08005538ED /* 104. Merge K Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "104. Merge K Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +149,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF06C5092073602E009960B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF06C51420736320009960B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,6 +236,14 @@
 			path = "5. Kth Largest Element";
 			sourceTree = "<group>";
 		};
+		EF06C51820736320009960B9 /* 81. Data Stream Median */ = {
+			isa = PBXGroup;
+			children = (
+				EF06C51920736320009960B9 /* main.cpp */,
+			);
+			path = "81. Data Stream Median";
+			sourceTree = "<group>";
+		};
 		EF37C8EC2070B9F5005538ED /* 165. Merge Two Sorted Lists */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +273,7 @@
 				EF37C8EC2070B9F5005538ED /* 165. Merge Two Sorted Lists */,
 				EF37C8F72070BE08005538ED /* 104. Merge K Sorted Lists */,
 				EF06C50D2073602E009960B9 /* 5. Kth Largest Element */,
+				EF06C51820736320009960B9 /* 81. Data Stream Median */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -263,6 +291,7 @@
 				EF37C8EB2070B9F5005538ED /* 165. Merge Two Sorted Lists */,
 				EF37C8F62070BE08005538ED /* 104. Merge K Sorted Lists */,
 				EF06C50C2073602E009960B9 /* 5. Kth Largest Element */,
+				EF06C51720736320009960B9 /* 81. Data Stream Median */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -341,6 +370,23 @@
 			name = "5. Kth Largest Element";
 			productName = "5. Kth Largest Element";
 			productReference = EF06C50C2073602E009960B9 /* 5. Kth Largest Element */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF06C51620736320009960B9 /* 81. Data Stream Median */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF06C51B20736320009960B9 /* Build configuration list for PBXNativeTarget "81. Data Stream Median" */;
+			buildPhases = (
+				EF06C51320736320009960B9 /* Sources */,
+				EF06C51420736320009960B9 /* Frameworks */,
+				EF06C51520736320009960B9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "81. Data Stream Median";
+			productName = "81. Data Stream Median";
+			productReference = EF06C51720736320009960B9 /* 81. Data Stream Median */;
 			productType = "com.apple.product-type.tool";
 		};
 		EF37C8EA2070B9F5005538ED /* 165. Merge Two Sorted Lists */ = {
@@ -509,6 +555,10 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EF06C51620736320009960B9 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					EF37C8EA2070B9F5005538ED = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -569,6 +619,7 @@
 				EF37C8EA2070B9F5005538ED /* 165. Merge Two Sorted Lists */,
 				EF37C8F52070BE08005538ED /* 104. Merge K Sorted Lists */,
 				EF06C50B2073602E009960B9 /* 5. Kth Largest Element */,
+				EF06C51620736320009960B9 /* 81. Data Stream Median */,
 			);
 		};
 /* End PBXProject section */
@@ -579,6 +630,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF06C50F2073602E009960B9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF06C51320736320009960B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF06C51A20736320009960B9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,6 +726,24 @@
 			name = Debug;
 		};
 		EF06C5112073602E009960B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF06C51C20736320009960B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF06C51D20736320009960B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -934,6 +1011,15 @@
 			buildConfigurations = (
 				EF06C5102073602E009960B9 /* Debug */,
 				EF06C5112073602E009960B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF06C51B20736320009960B9 /* Build configuration list for PBXNativeTarget "81. Data Stream Median" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF06C51C20736320009960B9 /* Debug */,
+				EF06C51D20736320009960B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
