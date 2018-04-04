@@ -12,6 +12,7 @@
 		EF37C8EE2070B9F5005538ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF37C8ED2070B9F5005538ED /* main.cpp */; };
 		EF37C8F92070BE08005538ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF37C8F82070BE08005538ED /* main.cpp */; };
 		EF47E8AA207489300006DF96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF47E8A9207489300006DF96 /* main.cpp */; };
+		EF47E8C020749B910006DF96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF47E8BF20749B910006DF96 /* main.cpp */; };
 		EFB570C0206F768800C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570BF206F768800C3AD35 /* main.cpp */; };
 		EFB570C2206F773A00C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570C1206F773A00C3AD35 /* main.cpp */; };
 		EFB570CA206F9B5300C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570C9206F9B5300C3AD35 /* main.cpp */; };
@@ -59,6 +60,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF47E8A5207489300006DF96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF47E8B0207490770006DF96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF47E8BB20749B910006DF96 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -143,6 +162,9 @@
 		EF37C8F82070BE08005538ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF47E8A7207489300006DF96 /* 376. Wiggle Subsequence [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "376. Wiggle Subsequence [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF47E8A9207489300006DF96 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF47E8B2207490770006DF96 /* 402. Remove K Digits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "402. Remove K Digits"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF47E8BD20749B910006DF96 /* 402. Remove K Dights [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "402. Remove K Dights [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF47E8BF20749B910006DF96 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFB570A2206F753A00C3AD35 /* 36. Reverse Linked List II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "36. Reverse Linked List II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB570B8206F764600C3AD35 /* 35. Reverse Linked List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "35. Reverse Linked List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB570BF206F768800C3AD35 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -189,6 +211,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF47E8A4207489300006DF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF47E8AF207490770006DF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF47E8BA20749B910006DF96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,6 +323,14 @@
 			path = "376. Wiggle Subsequence [LeetCode]";
 			sourceTree = "<group>";
 		};
+		EF47E8BE20749B910006DF96 /* 402. Remove K Dights [LeetCode] */ = {
+			isa = PBXGroup;
+			children = (
+				EF47E8BF20749B910006DF96 /* main.cpp */,
+			);
+			path = "402. Remove K Dights [LeetCode]";
+			sourceTree = "<group>";
+		};
 		EFB5707F206F6E8000C3AD35 = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +346,7 @@
 				EF06C50D2073602E009960B9 /* 5. Kth Largest Element */,
 				EF06C51820736320009960B9 /* 81. Data Stream Median */,
 				EF47E8A8207489300006DF96 /* 376. Wiggle Subsequence [LeetCode] */,
+				EF47E8BE20749B910006DF96 /* 402. Remove K Dights [LeetCode] */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -321,6 +366,8 @@
 				EF06C50C2073602E009960B9 /* 5. Kth Largest Element */,
 				EF06C51720736320009960B9 /* 81. Data Stream Median */,
 				EF47E8A7207489300006DF96 /* 376. Wiggle Subsequence [LeetCode] */,
+				EF47E8B2207490770006DF96 /* 402. Remove K Digits */,
+				EF47E8BD20749B910006DF96 /* 402. Remove K Dights [LeetCode] */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -467,6 +514,40 @@
 			name = "376. Wiggle Subsequence [LeetCode]";
 			productName = "376. Wiggle Subsequence [LeetCode]";
 			productReference = EF47E8A7207489300006DF96 /* 376. Wiggle Subsequence [LeetCode] */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF47E8B1207490770006DF96 /* 402. Remove K Digits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF47E8B6207490770006DF96 /* Build configuration list for PBXNativeTarget "402. Remove K Digits" */;
+			buildPhases = (
+				EF47E8AE207490770006DF96 /* Sources */,
+				EF47E8AF207490770006DF96 /* Frameworks */,
+				EF47E8B0207490770006DF96 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "402. Remove K Digits";
+			productName = "402. Remove K Digits";
+			productReference = EF47E8B2207490770006DF96 /* 402. Remove K Digits */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF47E8BC20749B910006DF96 /* 402. Remove K Dights [LeetCode] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF47E8C120749B910006DF96 /* Build configuration list for PBXNativeTarget "402. Remove K Dights [LeetCode]" */;
+			buildPhases = (
+				EF47E8B920749B910006DF96 /* Sources */,
+				EF47E8BA20749B910006DF96 /* Frameworks */,
+				EF47E8BB20749B910006DF96 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "402. Remove K Dights [LeetCode]";
+			productName = "402. Remove K Dights [LeetCode]";
+			productReference = EF47E8BD20749B910006DF96 /* 402. Remove K Dights [LeetCode] */;
 			productType = "com.apple.product-type.tool";
 		};
 		EFB570A1206F753A00C3AD35 /* 36. Reverse Linked List II */ = {
@@ -617,6 +698,14 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EF47E8B1207490770006DF96 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+					EF47E8BC20749B910006DF96 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					EFB570A1206F753A00C3AD35 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -671,6 +760,8 @@
 				EF06C50B2073602E009960B9 /* 5. Kth Largest Element */,
 				EF06C51620736320009960B9 /* 81. Data Stream Median */,
 				EF47E8A6207489300006DF96 /* 376. Wiggle Subsequence [LeetCode] */,
+				EF47E8B1207490770006DF96 /* 402. Remove K Digits */,
+				EF47E8BC20749B910006DF96 /* 402. Remove K Dights [LeetCode] */,
 			);
 		};
 /* End PBXProject section */
@@ -713,6 +804,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF47E8AA207489300006DF96 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF47E8AE207490770006DF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF47E8B920749B910006DF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF47E8C020749B910006DF96 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -853,6 +959,42 @@
 			name = Debug;
 		};
 		EF47E8AC207489300006DF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF47E8B7207490770006DF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF47E8B8207490770006DF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF47E8C220749B910006DF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF47E8C320749B910006DF96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -1124,6 +1266,24 @@
 			buildConfigurations = (
 				EF47E8AB207489300006DF96 /* Debug */,
 				EF47E8AC207489300006DF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF47E8B6207490770006DF96 /* Build configuration list for PBXNativeTarget "402. Remove K Digits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF47E8B7207490770006DF96 /* Debug */,
+				EF47E8B8207490770006DF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF47E8C120749B910006DF96 /* Build configuration list for PBXNativeTarget "402. Remove K Dights [LeetCode]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF47E8C220749B910006DF96 /* Debug */,
+				EF47E8C320749B910006DF96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

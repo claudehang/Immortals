@@ -42,22 +42,27 @@
 		<key>376. Wiggle Subsequence [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>9</integer>
 		</dict>
 		<key>380. Intersection of Two Linked Lists.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>402. Remove K Dights [LeetCode].xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>5. Kth Largest Element.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>10</integer>
 		</dict>
 		<key>81. Data Stream Median.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>11</integer>
 		</dict>
 		<key>96. Partition List.xcscheme</key>
 		<dict>
@@ -67,6 +72,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>EF47E8B1207490770006DF96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF47E8BC20749B910006DF96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>EFB57087206F6E8000C3AD35</key>
 		<dict>
 			<key>primary</key>
