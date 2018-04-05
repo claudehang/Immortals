@@ -20,6 +20,7 @@
 		EFB570E0206FA25D00C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570DF206FA25D00C3AD35 /* main.cpp */; };
 		EFB570EB206FA83D00C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570EA206FA83D00C3AD35 /* main.cpp */; };
 		EFB570F6206FAB7F00C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570F5206FAB7F00C3AD35 /* main.cpp */; };
+		EFD4C8032075E51D0064ECC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD4C8022075E51D0064ECC5 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -149,6 +150,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		EFD4C7FE2075E51D0064ECC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -179,6 +189,8 @@
 		EFB570EA206FA83D00C3AD35 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFB570F3206FAB7F00C3AD35 /* 105. Copy List with Random Pointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "105. Copy List with Random Pointer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB570F5206FAB7F00C3AD35 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFD4C8002075E51D0064ECC5 /* 116. Jump Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "116. Jump Game"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD4C8022075E51D0064ECC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +292,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFD4C7FD2075E51D0064ECC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -347,6 +366,7 @@
 				EF06C51820736320009960B9 /* 81. Data Stream Median */,
 				EF47E8A8207489300006DF96 /* 376. Wiggle Subsequence [LeetCode] */,
 				EF47E8BE20749B910006DF96 /* 402. Remove K Dights [LeetCode] */,
+				EFD4C8012075E51D0064ECC5 /* 116. Jump Game */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -368,6 +388,7 @@
 				EF47E8A7207489300006DF96 /* 376. Wiggle Subsequence [LeetCode] */,
 				EF47E8B2207490770006DF96 /* 402. Remove K Digits */,
 				EF47E8BD20749B910006DF96 /* 402. Remove K Dights [LeetCode] */,
+				EFD4C8002075E51D0064ECC5 /* 116. Jump Game */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -426,6 +447,14 @@
 				EFB570F5206FAB7F00C3AD35 /* main.cpp */,
 			);
 			path = "105. Copy List with Random Pointer";
+			sourceTree = "<group>";
+		};
+		EFD4C8012075E51D0064ECC5 /* 116. Jump Game */ = {
+			isa = PBXGroup;
+			children = (
+				EFD4C8022075E51D0064ECC5 /* main.cpp */,
+			);
+			path = "116. Jump Game";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -669,6 +698,23 @@
 			productReference = EFB570F3206FAB7F00C3AD35 /* 105. Copy List with Random Pointer */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFD4C7FF2075E51D0064ECC5 /* 116. Jump Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD4C8062075E51D0064ECC5 /* Build configuration list for PBXNativeTarget "116. Jump Game" */;
+			buildPhases = (
+				EFD4C7FC2075E51D0064ECC5 /* Sources */,
+				EFD4C7FD2075E51D0064ECC5 /* Frameworks */,
+				EFD4C7FE2075E51D0064ECC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "116. Jump Game";
+			productName = "116. Jump Game";
+			productReference = EFD4C8002075E51D0064ECC5 /* 116. Jump Game */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -734,6 +780,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					EFD4C7FF2075E51D0064ECC5 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = EFB57083206F6E8000C3AD35 /* Build configuration list for PBXProject "Immortals" */;
@@ -762,6 +812,7 @@
 				EF47E8A6207489300006DF96 /* 376. Wiggle Subsequence [LeetCode] */,
 				EF47E8B1207490770006DF96 /* 402. Remove K Digits */,
 				EF47E8BC20749B910006DF96 /* 402. Remove K Dights [LeetCode] */,
+				EFD4C7FF2075E51D0064ECC5 /* 116. Jump Game */,
 			);
 		};
 /* End PBXProject section */
@@ -875,6 +926,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFB570F6206FAB7F00C3AD35 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD4C7FC2075E51D0064ECC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD4C8032075E51D0064ECC5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1222,6 +1281,24 @@
 			};
 			name = Release;
 		};
+		EFD4C8042075E51D0064ECC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD4C8052075E51D0064ECC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1356,6 +1433,15 @@
 			buildConfigurations = (
 				EFB570F8206FAB7F00C3AD35 /* Debug */,
 				EFB570F9206FAB7F00C3AD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD4C8062075E51D0064ECC5 /* Build configuration list for PBXNativeTarget "116. Jump Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD4C8042075E51D0064ECC5 /* Debug */,
+				EFD4C8052075E51D0064ECC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
