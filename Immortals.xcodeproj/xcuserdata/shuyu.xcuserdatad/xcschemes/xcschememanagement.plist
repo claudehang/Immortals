@@ -17,7 +17,7 @@
 		<key>104. Merge K Sorted Lists.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>13</integer>
 		</dict>
 		<key>105. Copy List with Random Pointer.xcscheme</key>
 		<dict>
@@ -27,7 +27,12 @@
 		<key>116. Jump Game.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>12</integer>
+		</dict>
+		<key>117. Jump Game II.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
 		</dict>
 		<key>165. Merge Two Sorted Lists.xcscheme</key>
 		<dict>
@@ -47,7 +52,7 @@
 		<key>376. Wiggle Subsequence [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>9</integer>
 		</dict>
 		<key>380. Intersection of Two Linked Lists.xcscheme</key>
 		<dict>
@@ -62,12 +67,12 @@
 		<key>5. Kth Largest Element.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>10</integer>
 		</dict>
 		<key>81. Data Stream Median.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>11</integer>
 		</dict>
 		<key>96. Partition List.xcscheme</key>
 		<dict>
