@@ -51,6 +51,27 @@ private:
     };
 };
 
+class SolutionB {
+public:
+    std::vector<std::vector<int>> subsets(std::vector<int> &nums) {
+        std::vector<std::vector<int>> results;
+        
+        int setBits = 1 << nums.size();
+        
+        for (int index = 0; index < setBits; ++index) {
+            std::vector<int> subset;
+            for (int j = 0; j < nums.size(); ++j) {
+                if (index & (1 << j)) {
+                    subset.push_back(nums[j]);
+                }
+            }
+            results.push_back(subset);
+        }
+        
+        return results;
+    };
+};
+
 int main(int argc, const char * argv[]) {
     
     std::vector<int> nums;
@@ -60,7 +81,8 @@ int main(int argc, const char * argv[]) {
     
     std::vector<std::vector<int>> results;
     
-    Solution solve;
+//    Solution solve;
+    SolutionB solve;
     
     results = solve.subsets(nums);
     

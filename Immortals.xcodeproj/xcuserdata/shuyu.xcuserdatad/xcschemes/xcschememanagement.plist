@@ -32,7 +32,7 @@
 		<key>117. Jump Game II.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>15</integer>
 		</dict>
 		<key>165. Merge Two Sorted Lists.xcscheme</key>
 		<dict>
@@ -42,7 +42,12 @@
 		<key>17. Subsets.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>14</integer>
+		</dict>
+		<key>18. Subsets II.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
 		</dict>
 		<key>35. Reverse Linked List.xcscheme</key>
 		<dict>
@@ -72,7 +77,7 @@
 		<key>452. Minimum Number of Arrows to Burst Balloons.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>16</integer>
 		</dict>
 		<key>5. Kth Largest Element.xcscheme</key>
 		<dict>
