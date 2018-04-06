@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include <algorithm>
 #include <vector>
 
 class Solution {
@@ -16,10 +17,19 @@ public:
      * @return: A list of lists
      */
     std::vector<std::vector<int>> subsets(std::vector<int> &nums) {
+        // Declare results for all subset.
         std::vector<std::vector<int>> results;
+        // Declare current subset.
         std::vector<int> subset;
+        // Add non-set to subset.
         results.push_back(subset);
+        // Recursive calculate subsets.
         this->calculateSubsets(0, nums, subset, results);
+        // Sort result.
+        for (int index = 0; index < results.size(); ++index) {
+            std::sort(results[index].begin(), results[index].end());
+        }
+        // Return results.
         return results;
     };
 private:
@@ -33,13 +43,9 @@ private:
         }
         
         subset.push_back(nums[index]);
-        
         results.push_back(subset);
-        
         this->calculateSubsets(index + 1, nums, subset, results);
-        
         subset.pop_back();
-        
         this->calculateSubsets(index + 1, nums, subset, results);
         
     };
