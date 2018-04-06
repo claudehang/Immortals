@@ -25,6 +25,7 @@
 		EFD4C8192075F71A0064ECC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD4C8182075F71A0064ECC5 /* main.cpp */; };
 		EFEE5D072077398F0086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D062077398F0086610E /* main.cpp */; };
 		EFEE5D12207742B20086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D11207742B20086610E /* main.cpp */; };
+		EFEE5D1D207748260086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D1C207748260086610E /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -199,6 +200,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		EFEE5D18207748260086610E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -239,6 +249,8 @@
 		EFEE5D062077398F0086610E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFEE5D0F207742B20086610E /* 18. Subsets II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18. Subsets II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEE5D11207742B20086610E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFEE5D1A207748260086610E /* 153. Combination Sum II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "153. Combination Sum II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEE5D1C207748260086610E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -375,6 +387,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFEE5D17207748260086610E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -447,6 +466,7 @@
 				EFD4C8172075F71A0064ECC5 /* 452. Minimum Number of Arrows to Burst Balloons */,
 				EFEE5D052077398E0086610E /* 17. Subsets */,
 				EFEE5D10207742B20086610E /* 18. Subsets II */,
+				EFEE5D1B207748260086610E /* 153. Combination Sum II */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -473,6 +493,7 @@
 				EFD4C8162075F71A0064ECC5 /* 452. Minimum Number of Arrows to Burst Balloons */,
 				EFEE5D042077398E0086610E /* 17. Subsets */,
 				EFEE5D0F207742B20086610E /* 18. Subsets II */,
+				EFEE5D1A207748260086610E /* 153. Combination Sum II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -571,6 +592,14 @@
 				EFEE5D11207742B20086610E /* main.cpp */,
 			);
 			path = "18. Subsets II";
+			sourceTree = "<group>";
+		};
+		EFEE5D1B207748260086610E /* 153. Combination Sum II */ = {
+			isa = PBXGroup;
+			children = (
+				EFEE5D1C207748260086610E /* main.cpp */,
+			);
+			path = "153. Combination Sum II";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -899,6 +928,23 @@
 			productReference = EFEE5D0F207742B20086610E /* 18. Subsets II */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFEE5D19207748260086610E /* 153. Combination Sum II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEE5D1E207748260086610E /* Build configuration list for PBXNativeTarget "153. Combination Sum II" */;
+			buildPhases = (
+				EFEE5D16207748260086610E /* Sources */,
+				EFEE5D17207748260086610E /* Frameworks */,
+				EFEE5D18207748260086610E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "153. Combination Sum II";
+			productName = "153. Combination Sum II";
+			productReference = EFEE5D1A207748260086610E /* 153. Combination Sum II */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -984,6 +1030,10 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EFEE5D19207748260086610E = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = EFB57083206F6E8000C3AD35 /* Build configuration list for PBXProject "Immortals" */;
@@ -1017,6 +1067,7 @@
 				EFD4C8152075F71A0064ECC5 /* 452. Minimum Number of Arrows to Burst Balloons */,
 				EFEE5D032077398E0086610E /* 17. Subsets */,
 				EFEE5D0E207742B20086610E /* 18. Subsets II */,
+				EFEE5D19207748260086610E /* 153. Combination Sum II */,
 			);
 		};
 /* End PBXProject section */
@@ -1170,6 +1221,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFEE5D12207742B20086610E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEE5D16207748260086610E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEE5D1D207748260086610E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1607,6 +1666,24 @@
 			};
 			name = Release;
 		};
+		EFEE5D1F207748260086610E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFEE5D20207748260086610E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1786,6 +1863,15 @@
 			buildConfigurations = (
 				EFEE5D14207742B20086610E /* Debug */,
 				EFEE5D15207742B20086610E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEE5D1E207748260086610E /* Build configuration list for PBXNativeTarget "153. Combination Sum II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEE5D1F207748260086610E /* Debug */,
+				EFEE5D20207748260086610E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
