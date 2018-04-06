@@ -54,6 +54,11 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>315. Count of Smaller Numbers After Self [LeetCode].xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
 		<key>33. N-Queens.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -128,6 +133,16 @@
 			<true/>
 		</dict>
 		<key>EFB570AC206F759800C3AD35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFEE5D3A2077982B0086610E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFEE5D4520779FA50086610E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

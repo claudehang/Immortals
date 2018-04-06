@@ -28,6 +28,7 @@
 		EFEE5D1D207748260086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D1C207748260086610E /* main.cpp */; };
 		EFEE5D2820774D080086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D2720774D080086610E /* main.cpp */; };
 		EFEE5D33207791B20086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D32207791B20086610E /* main.cpp */; };
+		EFEE5D5420779FDC0086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D5320779FDC0086610E /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -229,6 +230,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		EFEE5D392077982B0086610E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFEE5D4420779FA50086610E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFEE5D4F20779FDC0086610E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -275,6 +303,10 @@
 		EFEE5D2720774D080086610E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFEE5D30207791B20086610E /* 33. N-Queens */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "33. N-Queens"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEE5D32207791B20086610E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFEE5D3B2077982B0086610E /* 249. Count of Smaller Number before itself */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "249. Count of Smaller Number before itself"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEE5D4620779FA50086610E /* 315. Count of Smaller Numbers After Self */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "315. Count of Smaller Numbers After Self"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEE5D5120779FDC0086610E /* 315. Count of Smaller Numbers After Self [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "315. Count of Smaller Numbers After Self [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEE5D5320779FDC0086610E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -432,6 +464,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFEE5D382077982B0086610E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEE5D4320779FA50086610E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEE5D4E20779FDC0086610E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -507,6 +560,7 @@
 				EFEE5D1B207748260086610E /* 153. Combination Sum II */,
 				EFEE5D2620774D080086610E /* 427. Generate Parentheses */,
 				EFEE5D31207791B20086610E /* 33. N-Queens */,
+				EFEE5D5220779FDC0086610E /* 315. Count of Smaller Numbers After Self [LeetCode] */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -536,6 +590,9 @@
 				EFEE5D1A207748260086610E /* 153. Combination Sum II */,
 				EFEE5D2520774D080086610E /* 427. Generate Parentheses */,
 				EFEE5D30207791B20086610E /* 33. N-Queens */,
+				EFEE5D3B2077982B0086610E /* 249. Count of Smaller Number before itself */,
+				EFEE5D4620779FA50086610E /* 315. Count of Smaller Numbers After Self */,
+				EFEE5D5120779FDC0086610E /* 315. Count of Smaller Numbers After Self [LeetCode] */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -658,6 +715,14 @@
 				EFEE5D32207791B20086610E /* main.cpp */,
 			);
 			path = "33. N-Queens";
+			sourceTree = "<group>";
+		};
+		EFEE5D5220779FDC0086610E /* 315. Count of Smaller Numbers After Self [LeetCode] */ = {
+			isa = PBXGroup;
+			children = (
+				EFEE5D5320779FDC0086610E /* main.cpp */,
+			);
+			path = "315. Count of Smaller Numbers After Self [LeetCode]";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1037,6 +1102,57 @@
 			productReference = EFEE5D30207791B20086610E /* 33. N-Queens */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFEE5D3A2077982B0086610E /* 249. Count of Smaller Number before itself */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEE5D3F2077982B0086610E /* Build configuration list for PBXNativeTarget "249. Count of Smaller Number before itself" */;
+			buildPhases = (
+				EFEE5D372077982B0086610E /* Sources */,
+				EFEE5D382077982B0086610E /* Frameworks */,
+				EFEE5D392077982B0086610E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "249. Count of Smaller Number before itself";
+			productName = "249. Count of Smaller Number before itself";
+			productReference = EFEE5D3B2077982B0086610E /* 249. Count of Smaller Number before itself */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFEE5D4520779FA50086610E /* 315. Count of Smaller Numbers After Self */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEE5D4A20779FA50086610E /* Build configuration list for PBXNativeTarget "315. Count of Smaller Numbers After Self" */;
+			buildPhases = (
+				EFEE5D4220779FA50086610E /* Sources */,
+				EFEE5D4320779FA50086610E /* Frameworks */,
+				EFEE5D4420779FA50086610E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "315. Count of Smaller Numbers After Self";
+			productName = "315. Count of Smaller Numbers After Self";
+			productReference = EFEE5D4620779FA50086610E /* 315. Count of Smaller Numbers After Self */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFEE5D5020779FDC0086610E /* 315. Count of Smaller Numbers After Self [LeetCode] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEE5D5520779FDC0086610E /* Build configuration list for PBXNativeTarget "315. Count of Smaller Numbers After Self [LeetCode]" */;
+			buildPhases = (
+				EFEE5D4D20779FDC0086610E /* Sources */,
+				EFEE5D4E20779FDC0086610E /* Frameworks */,
+				EFEE5D4F20779FDC0086610E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "315. Count of Smaller Numbers After Self [LeetCode]";
+			productName = "315. Count of Smaller Numbers After Self [LeetCode]";
+			productReference = EFEE5D5120779FDC0086610E /* 315. Count of Smaller Numbers After Self [LeetCode] */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1134,6 +1250,18 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EFEE5D3A2077982B0086610E = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+					EFEE5D4520779FA50086610E = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+					EFEE5D5020779FDC0086610E = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = EFB57083206F6E8000C3AD35 /* Build configuration list for PBXProject "Immortals" */;
@@ -1170,6 +1298,9 @@
 				EFEE5D19207748260086610E /* 153. Combination Sum II */,
 				EFEE5D2420774D080086610E /* 427. Generate Parentheses */,
 				EFEE5D2F207791B20086610E /* 33. N-Queens */,
+				EFEE5D3A2077982B0086610E /* 249. Count of Smaller Number before itself */,
+				EFEE5D4520779FA50086610E /* 315. Count of Smaller Numbers After Self */,
+				EFEE5D5020779FDC0086610E /* 315. Count of Smaller Numbers After Self [LeetCode] */,
 			);
 		};
 /* End PBXProject section */
@@ -1347,6 +1478,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFEE5D33207791B20086610E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEE5D372077982B0086610E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEE5D4220779FA50086610E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEE5D4D20779FDC0086610E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEE5D5420779FDC0086610E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1838,6 +1991,60 @@
 			};
 			name = Release;
 		};
+		EFEE5D402077982B0086610E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFEE5D412077982B0086610E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFEE5D4B20779FA50086610E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFEE5D4C20779FA50086610E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFEE5D5620779FDC0086610E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFEE5D5720779FDC0086610E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2044,6 +2251,33 @@
 			buildConfigurations = (
 				EFEE5D35207791B20086610E /* Debug */,
 				EFEE5D36207791B20086610E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEE5D3F2077982B0086610E /* Build configuration list for PBXNativeTarget "249. Count of Smaller Number before itself" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEE5D402077982B0086610E /* Debug */,
+				EFEE5D412077982B0086610E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEE5D4A20779FA50086610E /* Build configuration list for PBXNativeTarget "315. Count of Smaller Numbers After Self" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEE5D4B20779FA50086610E /* Debug */,
+				EFEE5D4C20779FA50086610E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEE5D5520779FDC0086610E /* Build configuration list for PBXNativeTarget "315. Count of Smaller Numbers After Self [LeetCode]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEE5D5620779FDC0086610E /* Debug */,
+				EFEE5D5720779FDC0086610E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
