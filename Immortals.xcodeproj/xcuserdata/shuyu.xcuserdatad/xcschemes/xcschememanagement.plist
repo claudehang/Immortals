@@ -54,6 +54,11 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>33. N-Queens.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>35. Reverse Linked List.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
