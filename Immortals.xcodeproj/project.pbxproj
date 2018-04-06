@@ -23,6 +23,7 @@
 		EFD4C8032075E51D0064ECC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD4C8022075E51D0064ECC5 /* main.cpp */; };
 		EFD4C80E2075EBC20064ECC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD4C80D2075EBC20064ECC5 /* main.cpp */; };
 		EFD4C8192075F71A0064ECC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD4C8182075F71A0064ECC5 /* main.cpp */; };
+		EFEE5D072077398F0086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D062077398F0086610E /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -179,6 +180,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		EFEE5D022077398E0086610E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -215,6 +225,8 @@
 		EFD4C80D2075EBC20064ECC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFD4C8162075F71A0064ECC5 /* 452. Minimum Number of Arrows to Burst Balloons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "452. Minimum Number of Arrows to Burst Balloons"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD4C8182075F71A0064ECC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFEE5D042077398E0086610E /* 17. Subsets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17. Subsets"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEE5D062077398F0086610E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,6 +349,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFEE5D012077398E0086610E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -407,6 +426,7 @@
 				EFD4C8012075E51D0064ECC5 /* 116. Jump Game */,
 				EFD4C80C2075EBC20064ECC5 /* 117. Jump Game II */,
 				EFD4C8172075F71A0064ECC5 /* 452. Minimum Number of Arrows to Burst Balloons */,
+				EFEE5D052077398E0086610E /* 17. Subsets */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -431,6 +451,7 @@
 				EFD4C8002075E51D0064ECC5 /* 116. Jump Game */,
 				EFD4C80B2075EBC20064ECC5 /* 117. Jump Game II */,
 				EFD4C8162075F71A0064ECC5 /* 452. Minimum Number of Arrows to Burst Balloons */,
+				EFEE5D042077398E0086610E /* 17. Subsets */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -513,6 +534,14 @@
 				EFD4C8182075F71A0064ECC5 /* main.cpp */,
 			);
 			path = "452. Minimum Number of Arrows to Burst Balloons";
+			sourceTree = "<group>";
+		};
+		EFEE5D052077398E0086610E /* 17. Subsets */ = {
+			isa = PBXGroup;
+			children = (
+				EFEE5D062077398F0086610E /* main.cpp */,
+			);
+			path = "17. Subsets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -807,6 +836,23 @@
 			productReference = EFD4C8162075F71A0064ECC5 /* 452. Minimum Number of Arrows to Burst Balloons */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFEE5D032077398E0086610E /* 17. Subsets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEE5D0A2077398F0086610E /* Build configuration list for PBXNativeTarget "17. Subsets" */;
+			buildPhases = (
+				EFEE5D002077398E0086610E /* Sources */,
+				EFEE5D012077398E0086610E /* Frameworks */,
+				EFEE5D022077398E0086610E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "17. Subsets";
+			productName = "17. Subsets";
+			productReference = EFEE5D042077398E0086610E /* 17. Subsets */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -884,6 +930,10 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EFEE5D032077398E0086610E = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = EFB57083206F6E8000C3AD35 /* Build configuration list for PBXProject "Immortals" */;
@@ -915,6 +965,7 @@
 				EFD4C7FF2075E51D0064ECC5 /* 116. Jump Game */,
 				EFD4C80A2075EBC20064ECC5 /* 117. Jump Game II */,
 				EFD4C8152075F71A0064ECC5 /* 452. Minimum Number of Arrows to Burst Balloons */,
+				EFEE5D032077398E0086610E /* 17. Subsets */,
 			);
 		};
 /* End PBXProject section */
@@ -1052,6 +1103,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD4C8192075F71A0064ECC5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEE5D002077398E0086610E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEE5D072077398F0086610E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1453,6 +1512,24 @@
 			};
 			name = Release;
 		};
+		EFEE5D082077398F0086610E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFEE5D092077398F0086610E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1614,6 +1691,15 @@
 			buildConfigurations = (
 				EFD4C81B2075F71A0064ECC5 /* Debug */,
 				EFD4C81C2075F71A0064ECC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEE5D0A2077398F0086610E /* Build configuration list for PBXNativeTarget "17. Subsets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEE5D082077398F0086610E /* Debug */,
+				EFEE5D092077398F0086610E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
