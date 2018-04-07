@@ -15,6 +15,7 @@
 		EF47E8C020749B910006DF96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF47E8BF20749B910006DF96 /* main.cpp */; };
 		EF99541A2078A4D600EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9954192078A4D600EE59C2 /* main.cpp */; };
 		EF9954252078AAAE00EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9954242078AAAE00EE59C2 /* main.cpp */; };
+		EF9954302078EC9F00EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF99542F2078EC9F00EE59C2 /* main.cpp */; };
 		EFB570C0206F768800C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570BF206F768800C3AD35 /* main.cpp */; };
 		EFB570C2206F773A00C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570C1206F773A00C3AD35 /* main.cpp */; };
 		EFB570CA206F9B5300C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570C9206F9B5300C3AD35 /* main.cpp */; };
@@ -107,6 +108,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF9954202078AAAD00EE59C2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF99542B2078EC9F00EE59C2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -297,6 +307,8 @@
 		EF9954192078A4D600EE59C2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF9954222078AAAE00EE59C2 /* 236. Lowest Common Ancestor of a Binary Tree [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "236. Lowest Common Ancestor of a Binary Tree [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9954242078AAAE00EE59C2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF99542D2078EC9F00EE59C2 /* 114. Flatten Binary Tree to Linked List [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "114. Flatten Binary Tree to Linked List [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF99542F2078EC9F00EE59C2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFB570A2206F753A00C3AD35 /* 36. Reverse Linked List II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "36. Reverse Linked List II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB570B8206F764600C3AD35 /* 35. Reverse Linked List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "35. Reverse Linked List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB570BF206F768800C3AD35 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -391,6 +403,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF99541F2078AAAD00EE59C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF99542A2078EC9F00EE59C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -590,6 +609,14 @@
 			path = "236. Lowest Common Ancestor of a Binary Tree [LeetCode]";
 			sourceTree = "<group>";
 		};
+		EF99542E2078EC9F00EE59C2 /* 114. Flatten Binary Tree to Linked List [LeetCode] */ = {
+			isa = PBXGroup;
+			children = (
+				EF99542F2078EC9F00EE59C2 /* main.cpp */,
+			);
+			path = "114. Flatten Binary Tree to Linked List [LeetCode]";
+			sourceTree = "<group>";
+		};
 		EFB5707F206F6E8000C3AD35 = {
 			isa = PBXGroup;
 			children = (
@@ -617,6 +644,7 @@
 				EFEE5D5220779FDC0086610E /* 315. Count of Smaller Numbers After Self [LeetCode] */,
 				EF9954182078A4D600EE59C2 /* 113. Path Sum II [LeetCode] */,
 				EF9954232078AAAE00EE59C2 /* 236. Lowest Common Ancestor of a Binary Tree [LeetCode] */,
+				EF99542E2078EC9F00EE59C2 /* 114. Flatten Binary Tree to Linked List [LeetCode] */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -651,6 +679,7 @@
 				EFEE5D5120779FDC0086610E /* 315. Count of Smaller Numbers After Self [LeetCode] */,
 				EF9954172078A4D600EE59C2 /* 113. Path Sum II [LeetCode] */,
 				EF9954222078AAAE00EE59C2 /* 236. Lowest Common Ancestor of a Binary Tree [LeetCode] */,
+				EF99542D2078EC9F00EE59C2 /* 114. Flatten Binary Tree to Linked List [LeetCode] */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -937,6 +966,23 @@
 			name = "236. Lowest Common Ancestor of a Binary Tree [LeetCode]";
 			productName = "236. Lowest Common Ancestor of a Binary Tree [LeetCode]";
 			productReference = EF9954222078AAAE00EE59C2 /* 236. Lowest Common Ancestor of a Binary Tree [LeetCode] */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF99542C2078EC9F00EE59C2 /* 114. Flatten Binary Tree to Linked List [LeetCode] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9954312078EC9F00EE59C2 /* Build configuration list for PBXNativeTarget "114. Flatten Binary Tree to Linked List [LeetCode]" */;
+			buildPhases = (
+				EF9954292078EC9F00EE59C2 /* Sources */,
+				EF99542A2078EC9F00EE59C2 /* Frameworks */,
+				EF99542B2078EC9F00EE59C2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "114. Flatten Binary Tree to Linked List [LeetCode]";
+			productName = "114. Flatten Binary Tree to Linked List [LeetCode]";
+			productReference = EF99542D2078EC9F00EE59C2 /* 114. Flatten Binary Tree to Linked List [LeetCode] */;
 			productType = "com.apple.product-type.tool";
 		};
 		EFB570A1206F753A00C3AD35 /* 36. Reverse Linked List II */ = {
@@ -1290,6 +1336,10 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EF99542C2078EC9F00EE59C2 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					EFB570A1206F753A00C3AD35 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -1403,6 +1453,7 @@
 				EFEE5D5020779FDC0086610E /* 315. Count of Smaller Numbers After Self [LeetCode] */,
 				EF9954162078A4D600EE59C2 /* 113. Path Sum II [LeetCode] */,
 				EF9954212078AAAD00EE59C2 /* 236. Lowest Common Ancestor of a Binary Tree [LeetCode] */,
+				EF99542C2078EC9F00EE59C2 /* 114. Flatten Binary Tree to Linked List [LeetCode] */,
 			);
 		};
 /* End PBXProject section */
@@ -1476,6 +1527,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF9954252078AAAE00EE59C2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9954292078EC9F00EE59C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9954302078EC9F00EE59C2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1774,6 +1833,24 @@
 			name = Debug;
 		};
 		EF9954282078AAAE00EE59C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF9954322078EC9F00EE59C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF9954332078EC9F00EE59C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -2279,6 +2356,15 @@
 			buildConfigurations = (
 				EF9954272078AAAE00EE59C2 /* Debug */,
 				EF9954282078AAAE00EE59C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9954312078EC9F00EE59C2 /* Build configuration list for PBXNativeTarget "114. Flatten Binary Tree to Linked List [LeetCode]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9954322078EC9F00EE59C2 /* Debug */,
+				EF9954332078EC9F00EE59C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
