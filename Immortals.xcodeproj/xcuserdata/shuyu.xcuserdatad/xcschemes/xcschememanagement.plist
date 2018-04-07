@@ -64,6 +64,11 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
+		<key>199. Binary Tree Right Side View [LeetCode].xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
 		<key>236. Lowest Common Ancestor of a Binary Tree [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -138,6 +143,11 @@
 			<true/>
 		</dict>
 		<key>EF47E8BC20749B910006DF96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF9954372078F0F400EE59C2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
