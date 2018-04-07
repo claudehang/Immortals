@@ -59,6 +59,11 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
+		<key>236. Lowest Common Ancestor of a Binary Tree [LeetCode].xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
 		<key>315. Count of Smaller Numbers After Self [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
