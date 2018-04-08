@@ -36,6 +36,12 @@ Immortals is a repo that implements problems on LintCode.
 + [315. Count of Smaller Numbers After Self (LeetCode)](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)     
 + [427. Generate Parentheses](http://www.lintcode.com/en/problem/generate-parentheses/)      
 
+## Binary Tree, Graph   
++ [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)    
++ [114. Flatten Binary Tree to Linked List (LeetCode)](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)    
++ [199. Binary Tree Right Side View (LeetCode)](https://leetcode.com/problems/binary-tree-right-side-view/description/)    
++ [236. Lowest Common Ancestor of a Binary Tree (LeetCode)](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)      
+
 
 # TODO
 - More implements of problems.
