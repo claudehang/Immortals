@@ -40,7 +40,13 @@ Immortals is a repo that implements problems on LintCode.
 + [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)    
 + [114. Flatten Binary Tree to Linked List (LeetCode)](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)    
 + [199. Binary Tree Right Side View (LeetCode)](https://leetcode.com/problems/binary-tree-right-side-view/description/)    
-+ [236. Lowest Common Ancestor of a Binary Tree (LeetCode)](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)      
++ [236. Lowest Common Ancestor of a Binary Tree (LeetCode)](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
+
+## Dynamic Programming
++ [53. Maximum Subarray (LeetCode)](https://leetcode.com/problems/maximum-subarray/description/)     
++ [198. House Robber (LeetCode)](https://leetcode.com/problems/house-robber/description/)     
++ [322. Coin Change (LeetCode)](https://leetcode.com/problems/coin-change/description/)     
+
 
 
 # TODO
