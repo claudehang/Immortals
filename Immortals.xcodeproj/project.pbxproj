@@ -15,6 +15,7 @@
 		EF47E8C020749B910006DF96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF47E8BF20749B910006DF96 /* main.cpp */; };
 		EF853503207B3F4300378FA5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF853502207B3F4300378FA5 /* main.cpp */; };
 		EF85350E207B443A00378FA5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF85350D207B443A00378FA5 /* main.cpp */; };
+		EF853519207B466800378FA5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF853518207B466800378FA5 /* main.cpp */; };
 		EF99541A2078A4D600EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9954192078A4D600EE59C2 /* main.cpp */; };
 		EF9954252078AAAE00EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9954242078AAAE00EE59C2 /* main.cpp */; };
 		EF9954302078EC9F00EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF99542F2078EC9F00EE59C2 /* main.cpp */; };
@@ -111,6 +112,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF853509207B443A00378FA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF853514207B466800378FA5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -346,6 +356,8 @@
 		EF853502207B3F4300378FA5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF85350B207B443A00378FA5 /* 53. Maximum Subarray [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "53. Maximum Subarray [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF85350D207B443A00378FA5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF853516207B466800378FA5 /* 322. Coin Change [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "322. Coin Change [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF853518207B466800378FA5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF9954172078A4D600EE59C2 /* 113. Path Sum II [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "113. Path Sum II [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9954192078A4D600EE59C2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF9954222078AAAE00EE59C2 /* 236. Lowest Common Ancestor of a Binary Tree [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "236. Lowest Common Ancestor of a Binary Tree [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -449,6 +461,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF853508207B443A00378FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF853513207B466800378FA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -683,6 +702,14 @@
 			path = "53. Maximum Subarray [LeetCode]";
 			sourceTree = "<group>";
 		};
+		EF853517207B466800378FA5 /* 322. Coin Change [LeetCode] */ = {
+			isa = PBXGroup;
+			children = (
+				EF853518207B466800378FA5 /* main.cpp */,
+			);
+			path = "322. Coin Change [LeetCode]";
+			sourceTree = "<group>";
+		};
 		EF9954182078A4D600EE59C2 /* 113. Path Sum II [LeetCode] */ = {
 			isa = PBXGroup;
 			children = (
@@ -746,6 +773,7 @@
 				EF9954442078F10600EE59C2 /* 199. Binary Tree Right Side View [LeetCode] */,
 				EF853501207B3F4300378FA5 /* 198. House Robber [LeetCode] */,
 				EF85350C207B443A00378FA5 /* 53. Maximum Subarray [LeetCode] */,
+				EF853517207B466800378FA5 /* 322. Coin Change [LeetCode] */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -785,6 +813,7 @@
 				EF9954432078F10600EE59C2 /* 199. Binary Tree Right Side View [LeetCode] */,
 				EF853500207B3F4300378FA5 /* 198. House Robber [LeetCode] */,
 				EF85350B207B443A00378FA5 /* 53. Maximum Subarray [LeetCode] */,
+				EF853516207B466800378FA5 /* 322. Coin Change [LeetCode] */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1071,6 +1100,23 @@
 			name = "53. Maximum Subarray [LeetCode]";
 			productName = "53. Maximum Subarray [LeetCode]";
 			productReference = EF85350B207B443A00378FA5 /* 53. Maximum Subarray [LeetCode] */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF853515207B466800378FA5 /* 322. Coin Change [LeetCode] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF85351A207B466800378FA5 /* Build configuration list for PBXNativeTarget "322. Coin Change [LeetCode]" */;
+			buildPhases = (
+				EF853512207B466800378FA5 /* Sources */,
+				EF853513207B466800378FA5 /* Frameworks */,
+				EF853514207B466800378FA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "322. Coin Change [LeetCode]";
+			productName = "322. Coin Change [LeetCode]";
+			productReference = EF853516207B466800378FA5 /* 322. Coin Change [LeetCode] */;
 			productType = "com.apple.product-type.tool";
 		};
 		EF9954162078A4D600EE59C2 /* 113. Path Sum II [LeetCode] */ = {
@@ -1509,6 +1555,10 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EF853515207B466800378FA5 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					EF9954162078A4D600EE59C2 = {
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
@@ -1647,6 +1697,7 @@
 				EF9954422078F10600EE59C2 /* 199. Binary Tree Right Side View [LeetCode] */,
 				EF8534FF207B3F4300378FA5 /* 198. House Robber [LeetCode] */,
 				EF85350A207B443A00378FA5 /* 53. Maximum Subarray [LeetCode] */,
+				EF853515207B466800378FA5 /* 322. Coin Change [LeetCode] */,
 			);
 		};
 /* End PBXProject section */
@@ -1720,6 +1771,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF85350E207B443A00378FA5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF853512207B466800378FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF853519207B466800378FA5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2057,6 +2116,24 @@
 			name = Debug;
 		};
 		EF853511207B443A00378FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF85351B207B466800378FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF85351C207B466800378FA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -2652,6 +2729,15 @@
 			buildConfigurations = (
 				EF853510207B443A00378FA5 /* Debug */,
 				EF853511207B443A00378FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF85351A207B466800378FA5 /* Build configuration list for PBXNativeTarget "322. Coin Change [LeetCode]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85351B207B466800378FA5 /* Debug */,
+				EF85351C207B466800378FA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
