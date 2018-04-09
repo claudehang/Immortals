@@ -45,7 +45,8 @@ Immortals is a repo that implements problems on LintCode.
 ## Dynamic Programming
 + [53. Maximum Subarray (LeetCode)](https://leetcode.com/problems/maximum-subarray/description/)    
 + [64. Minimum Path Sum (LeetCode)](https://leetcode.com/problems/minimum-path-sum/description/)    
-+ [120. Triangle (LeetCode)](https://leetcode.com/problems/triangle/description/)      
++ [120. Triangle (LeetCode)](https://leetcode.com/problems/triangle/description/)       
++ [174. Dungeon Game(LeetCode)](https://leetcode.com/problems/dungeon-game/description/)    
 + [198. House Robber (LeetCode)](https://leetcode.com/problems/house-robber/description/)     
 + [300. Longest Increasing Subsequence (LeetCode)](https://leetcode.com/problems/longest-increasing-subsequence/description/)    
 + [322. Coin Change (LeetCode)](https://leetcode.com/problems/coin-change/description/)     

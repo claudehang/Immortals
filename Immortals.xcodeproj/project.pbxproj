@@ -19,6 +19,7 @@
 		EF853524207B517C00378FA5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF853523207B517C00378FA5 /* main.cpp */; };
 		EF85352F207B7B6400378FA5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF85352E207B7B6400378FA5 /* main.cpp */; };
 		EF85353A207B908400378FA5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF853539207B908400378FA5 /* main.cpp */; };
+		EF853545207B94BF00378FA5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF853544207B94BF00378FA5 /* main.cpp */; };
 		EF99541A2078A4D600EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9954192078A4D600EE59C2 /* main.cpp */; };
 		EF9954252078AAAE00EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9954242078AAAE00EE59C2 /* main.cpp */; };
 		EF9954302078EC9F00EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF99542F2078EC9F00EE59C2 /* main.cpp */; };
@@ -151,6 +152,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF853535207B908400378FA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF853540207B94BF00378FA5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -394,6 +404,8 @@
 		EF85352E207B7B6400378FA5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF853537207B908400378FA5 /* 64. Minimum Path Sum [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "64. Minimum Path Sum [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF853539207B908400378FA5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF853542207B94BF00378FA5 /* 174. Dungeon Game [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "174. Dungeon Game [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF853544207B94BF00378FA5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF9954172078A4D600EE59C2 /* 113. Path Sum II [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "113. Path Sum II [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9954192078A4D600EE59C2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF9954222078AAAE00EE59C2 /* 236. Lowest Common Ancestor of a Binary Tree [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "236. Lowest Common Ancestor of a Binary Tree [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -525,6 +537,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF853534207B908400378FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85353F207B94BF00378FA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -791,6 +810,14 @@
 			path = "64. Minimum Path Sum [LeetCode]";
 			sourceTree = "<group>";
 		};
+		EF853543207B94BF00378FA5 /* 174. Dungeon Game [LeetCode] */ = {
+			isa = PBXGroup;
+			children = (
+				EF853544207B94BF00378FA5 /* main.cpp */,
+			);
+			path = "174. Dungeon Game [LeetCode]";
+			sourceTree = "<group>";
+		};
 		EF9954182078A4D600EE59C2 /* 113. Path Sum II [LeetCode] */ = {
 			isa = PBXGroup;
 			children = (
@@ -858,6 +885,7 @@
 				EF853522207B517C00378FA5 /* 120. Triangle [LeetCode] */,
 				EF85352D207B7B6400378FA5 /* 300. Longest Increasing Subsequence [LeetCode] */,
 				EF853538207B908400378FA5 /* 64. Minimum Path Sum [LeetCode] */,
+				EF853543207B94BF00378FA5 /* 174. Dungeon Game [LeetCode] */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -901,6 +929,7 @@
 				EF853521207B517C00378FA5 /* 120. Triangle [LeetCode] */,
 				EF85352C207B7B6400378FA5 /* 300. Longest Increasing Subsequence [LeetCode] */,
 				EF853537207B908400378FA5 /* 64. Minimum Path Sum [LeetCode] */,
+				EF853542207B94BF00378FA5 /* 174. Dungeon Game [LeetCode] */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1255,6 +1284,23 @@
 			name = "64. Minimum Path Sum [LeetCode]";
 			productName = "64. Minimum Path Sum [LeetCode]";
 			productReference = EF853537207B908400378FA5 /* 64. Minimum Path Sum [LeetCode] */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF853541207B94BF00378FA5 /* 174. Dungeon Game [LeetCode] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF853546207B94BF00378FA5 /* Build configuration list for PBXNativeTarget "174. Dungeon Game [LeetCode]" */;
+			buildPhases = (
+				EF85353E207B94BF00378FA5 /* Sources */,
+				EF85353F207B94BF00378FA5 /* Frameworks */,
+				EF853540207B94BF00378FA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "174. Dungeon Game [LeetCode]";
+			productName = "174. Dungeon Game [LeetCode]";
+			productReference = EF853542207B94BF00378FA5 /* 174. Dungeon Game [LeetCode] */;
 			productType = "com.apple.product-type.tool";
 		};
 		EF9954162078A4D600EE59C2 /* 113. Path Sum II [LeetCode] */ = {
@@ -1709,6 +1755,10 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EF853541207B94BF00378FA5 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					EF9954162078A4D600EE59C2 = {
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
@@ -1851,6 +1901,7 @@
 				EF853520207B517C00378FA5 /* 120. Triangle [LeetCode] */,
 				EF85352B207B7B6400378FA5 /* 300. Longest Increasing Subsequence [LeetCode] */,
 				EF853536207B908400378FA5 /* 64. Minimum Path Sum [LeetCode] */,
+				EF853541207B94BF00378FA5 /* 174. Dungeon Game [LeetCode] */,
 			);
 		};
 /* End PBXProject section */
@@ -1956,6 +2007,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF85353A207B908400378FA5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85353E207B94BF00378FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF853545207B94BF00378FA5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2365,6 +2424,24 @@
 			name = Debug;
 		};
 		EF85353D207B908400378FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF853547207B94BF00378FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF853548207B94BF00378FA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -2996,6 +3073,15 @@
 			buildConfigurations = (
 				EF85353C207B908400378FA5 /* Debug */,
 				EF85353D207B908400378FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF853546207B94BF00378FA5 /* Build configuration list for PBXNativeTarget "174. Dungeon Game [LeetCode]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF853547207B94BF00378FA5 /* Debug */,
+				EF853548207B94BF00378FA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
