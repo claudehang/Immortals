@@ -13,6 +13,7 @@
 		EF37C8F92070BE08005538ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF37C8F82070BE08005538ED /* main.cpp */; };
 		EF47E8AA207489300006DF96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF47E8A9207489300006DF96 /* main.cpp */; };
 		EF47E8C020749B910006DF96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF47E8BF20749B910006DF96 /* main.cpp */; };
+		EF853503207B3F4300378FA5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF853502207B3F4300378FA5 /* main.cpp */; };
 		EF99541A2078A4D600EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9954192078A4D600EE59C2 /* main.cpp */; };
 		EF9954252078AAAE00EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9954242078AAAE00EE59C2 /* main.cpp */; };
 		EF9954302078EC9F00EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF99542F2078EC9F00EE59C2 /* main.cpp */; };
@@ -91,6 +92,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF47E8BB20749B910006DF96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF8534FE207B3F4300378FA5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -322,6 +332,8 @@
 		EF47E8B2207490770006DF96 /* 402. Remove K Digits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "402. Remove K Digits"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF47E8BD20749B910006DF96 /* 402. Remove K Dights [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "402. Remove K Dights [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF47E8BF20749B910006DF96 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF853500207B3F4300378FA5 /* 198. House Robber [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "198. House Robber [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF853502207B3F4300378FA5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF9954172078A4D600EE59C2 /* 113. Path Sum II [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "113. Path Sum II [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9954192078A4D600EE59C2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF9954222078AAAE00EE59C2 /* 236. Lowest Common Ancestor of a Binary Tree [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "236. Lowest Common Ancestor of a Binary Tree [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -411,6 +423,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF47E8BA20749B910006DF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8534FD207B3F4300378FA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -629,6 +648,14 @@
 			path = "402. Remove K Dights [LeetCode]";
 			sourceTree = "<group>";
 		};
+		EF853501207B3F4300378FA5 /* 198. House Robber [LeetCode] */ = {
+			isa = PBXGroup;
+			children = (
+				EF853502207B3F4300378FA5 /* main.cpp */,
+			);
+			path = "198. House Robber [LeetCode]";
+			sourceTree = "<group>";
+		};
 		EF9954182078A4D600EE59C2 /* 113. Path Sum II [LeetCode] */ = {
 			isa = PBXGroup;
 			children = (
@@ -690,6 +717,7 @@
 				EF9954232078AAAE00EE59C2 /* 236. Lowest Common Ancestor of a Binary Tree [LeetCode] */,
 				EF99542E2078EC9F00EE59C2 /* 114. Flatten Binary Tree to Linked List [LeetCode] */,
 				EF9954442078F10600EE59C2 /* 199. Binary Tree Right Side View [LeetCode] */,
+				EF853501207B3F4300378FA5 /* 198. House Robber [LeetCode] */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -727,6 +755,7 @@
 				EF99542D2078EC9F00EE59C2 /* 114. Flatten Binary Tree to Linked List [LeetCode] */,
 				EF9954382078F0F400EE59C2 /* 199. Binary Tree Right Side View */,
 				EF9954432078F10600EE59C2 /* 199. Binary Tree Right Side View [LeetCode] */,
+				EF853500207B3F4300378FA5 /* 198. House Robber [LeetCode] */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -979,6 +1008,23 @@
 			name = "402. Remove K Dights [LeetCode]";
 			productName = "402. Remove K Dights [LeetCode]";
 			productReference = EF47E8BD20749B910006DF96 /* 402. Remove K Dights [LeetCode] */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF8534FF207B3F4300378FA5 /* 198. House Robber [LeetCode] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF853506207B3F4300378FA5 /* Build configuration list for PBXNativeTarget "198. House Robber [LeetCode]" */;
+			buildPhases = (
+				EF8534FC207B3F4300378FA5 /* Sources */,
+				EF8534FD207B3F4300378FA5 /* Frameworks */,
+				EF8534FE207B3F4300378FA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "198. House Robber [LeetCode]";
+			productName = "198. House Robber [LeetCode]";
+			productReference = EF853500207B3F4300378FA5 /* 198. House Robber [LeetCode] */;
 			productType = "com.apple.product-type.tool";
 		};
 		EF9954162078A4D600EE59C2 /* 113. Path Sum II [LeetCode] */ = {
@@ -1409,6 +1455,10 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EF8534FF207B3F4300378FA5 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					EF9954162078A4D600EE59C2 = {
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
@@ -1545,6 +1595,7 @@
 				EF99542C2078EC9F00EE59C2 /* 114. Flatten Binary Tree to Linked List [LeetCode] */,
 				EF9954372078F0F400EE59C2 /* 199. Binary Tree Right Side View */,
 				EF9954422078F10600EE59C2 /* 199. Binary Tree Right Side View [LeetCode] */,
+				EF8534FF207B3F4300378FA5 /* 198. House Robber [LeetCode] */,
 			);
 		};
 /* End PBXProject section */
@@ -1602,6 +1653,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF47E8C020749B910006DF96 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8534FC207B3F4300378FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF853503207B3F4300378FA5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1903,6 +1962,24 @@
 			name = Debug;
 		};
 		EF47E8C320749B910006DF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF853504207B3F4300378FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF853505207B3F4300378FA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -2480,6 +2557,15 @@
 			buildConfigurations = (
 				EF47E8C220749B910006DF96 /* Debug */,
 				EF47E8C320749B910006DF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF853506207B3F4300378FA5 /* Build configuration list for PBXNativeTarget "198. House Robber [LeetCode]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF853504207B3F4300378FA5 /* Debug */,
+				EF853505207B3F4300378FA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
