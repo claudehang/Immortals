@@ -149,6 +149,11 @@
 			<key>orderHint</key>
 			<integer>27</integer>
 		</dict>
+		<key>64. Minimum Path Sum [LeetCode].xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
 		<key>81. Data Stream Median.xcscheme</key>
 		<dict>
 			<key>orderHint</key>

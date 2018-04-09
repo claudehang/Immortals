@@ -38,7 +38,12 @@ public:
 };
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    int test[] = {10, 9, 2, 5, 3, 7, 101, 18};
+    std::vector<int> nums;
+    for (int i = 0; i < 8; i++){
+        nums.push_back(test[i]);
+    }
+    Solution solve;
+    printf("%d\n", solve.lengthOfLIS(nums));
     return 0;
 }
