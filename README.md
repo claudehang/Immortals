@@ -43,7 +43,8 @@ Immortals is a repo that implements problems on LintCode.
 + [236. Lowest Common Ancestor of a Binary Tree (LeetCode)](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
 
 ## Dynamic Programming
-+ [53. Maximum Subarray (LeetCode)](https://leetcode.com/problems/maximum-subarray/description/)     
++ [53. Maximum Subarray (LeetCode)](https://leetcode.com/problems/maximum-subarray/description/)
++ [120. Triangle (LeetCode)](https://leetcode.com/problems/triangle/description/)      
 + [198. House Robber (LeetCode)](https://leetcode.com/problems/house-robber/description/)     
 + [322. Coin Change (LeetCode)](https://leetcode.com/problems/coin-change/description/)     
 
