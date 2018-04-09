@@ -129,6 +129,11 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>53. Maximum Subarray [LeetCode].xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
 		<key>81. Data Stream Median.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
