@@ -84,6 +84,11 @@
 			<key>orderHint</key>
 			<integer>24</integer>
 		</dict>
+		<key>300. Longest Increasing Subsequence [LeetCode].xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
 		<key>315. Count of Smaller Numbers After Self [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
