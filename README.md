@@ -48,6 +48,9 @@ Immortals is a repo that implements problems on LintCode.
 + [35. Search Insert Position (LeetCode)](https://leetcode.com/problems/search-insert-position/description/)        
 + [449. Serialize and Deserialize BST (LeetCode)](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)     
 
+## String, Hash Table  
++ [409. Longest Palindrome (LeetCode)](https://leetcode.com/problems/longest-palindrome/description/)    
+
 ## Dynamic Programming
 + [53. Maximum Subarray (LeetCode)](https://leetcode.com/problems/maximum-subarray/description/)    
 + [64. Minimum Path Sum (LeetCode)](https://leetcode.com/problems/minimum-path-sum/description/)    
