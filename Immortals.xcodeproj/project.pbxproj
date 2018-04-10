@@ -34,6 +34,7 @@
 		EFD4C8032075E51D0064ECC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD4C8022075E51D0064ECC5 /* main.cpp */; };
 		EFD4C80E2075EBC20064ECC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD4C80D2075EBC20064ECC5 /* main.cpp */; };
 		EFD4C8192075F71A0064ECC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD4C8182075F71A0064ECC5 /* main.cpp */; };
+		EFD8D2B4207C813400DF1155 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD8D2B3207C813400DF1155 /* main.cpp */; };
 		EFEE5D072077398F0086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D062077398F0086610E /* main.cpp */; };
 		EFEE5D12207742B20086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D11207742B20086610E /* main.cpp */; };
 		EFEE5D1D207748260086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D1C207748260086610E /* main.cpp */; };
@@ -304,6 +305,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		EFD8D2AF207C813400DF1155 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EFEE5D022077398E0086610E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -435,6 +445,8 @@
 		EFD4C80D2075EBC20064ECC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFD4C8162075F71A0064ECC5 /* 452. Minimum Number of Arrows to Burst Balloons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "452. Minimum Number of Arrows to Burst Balloons"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD4C8182075F71A0064ECC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFD8D2B1207C813400DF1155 /* 35. Search Insert Position [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "35. Search Insert Position [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD8D2B3207C813400DF1155 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFEE5D042077398E0086610E /* 17. Subsets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17. Subsets"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEE5D062077398F0086610E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFEE5D0F207742B20086610E /* 18. Subsets II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18. Subsets II"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -649,6 +661,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EFD4C8132075F71A0064ECC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD8D2AE207C813400DF1155 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -886,6 +905,7 @@
 				EF85352D207B7B6400378FA5 /* 300. Longest Increasing Subsequence [LeetCode] */,
 				EF853538207B908400378FA5 /* 64. Minimum Path Sum [LeetCode] */,
 				EF853543207B94BF00378FA5 /* 174. Dungeon Game [LeetCode] */,
+				EFD8D2B2207C813400DF1155 /* 35. Search Insert Position [LeetCode] */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -930,6 +950,7 @@
 				EF85352C207B7B6400378FA5 /* 300. Longest Increasing Subsequence [LeetCode] */,
 				EF853537207B908400378FA5 /* 64. Minimum Path Sum [LeetCode] */,
 				EF853542207B94BF00378FA5 /* 174. Dungeon Game [LeetCode] */,
+				EFD8D2B1207C813400DF1155 /* 35. Search Insert Position [LeetCode] */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1012,6 +1033,14 @@
 				EFD4C8182075F71A0064ECC5 /* main.cpp */,
 			);
 			path = "452. Minimum Number of Arrows to Burst Balloons";
+			sourceTree = "<group>";
+		};
+		EFD8D2B2207C813400DF1155 /* 35. Search Insert Position [LeetCode] */ = {
+			isa = PBXGroup;
+			children = (
+				EFD8D2B3207C813400DF1155 /* main.cpp */,
+			);
+			path = "35. Search Insert Position [LeetCode]";
 			sourceTree = "<group>";
 		};
 		EFEE5D052077398E0086610E /* 17. Subsets */ = {
@@ -1558,6 +1587,23 @@
 			productReference = EFD4C8162075F71A0064ECC5 /* 452. Minimum Number of Arrows to Burst Balloons */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFD8D2B0207C813400DF1155 /* 35. Search Insert Position [LeetCode] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD8D2B7207C813400DF1155 /* Build configuration list for PBXNativeTarget "35. Search Insert Position [LeetCode]" */;
+			buildPhases = (
+				EFD8D2AD207C813400DF1155 /* Sources */,
+				EFD8D2AE207C813400DF1155 /* Frameworks */,
+				EFD8D2AF207C813400DF1155 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "35. Search Insert Position [LeetCode]";
+			productName = "35. Search Insert Position [LeetCode]";
+			productReference = EFD8D2B1207C813400DF1155 /* 35. Search Insert Position [LeetCode] */;
+			productType = "com.apple.product-type.tool";
+		};
 		EFEE5D032077398E0086610E /* 17. Subsets */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFEE5D0A2077398F0086610E /* Build configuration list for PBXNativeTarget "17. Subsets" */;
@@ -1819,6 +1865,10 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EFD8D2B0207C813400DF1155 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					EFEE5D032077398E0086610E = {
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
@@ -1902,6 +1952,7 @@
 				EF85352B207B7B6400378FA5 /* 300. Longest Increasing Subsequence [LeetCode] */,
 				EF853536207B908400378FA5 /* 64. Minimum Path Sum [LeetCode] */,
 				EF853541207B94BF00378FA5 /* 174. Dungeon Game [LeetCode] */,
+				EFD8D2B0207C813400DF1155 /* 35. Search Insert Position [LeetCode] */,
 			);
 		};
 /* End PBXProject section */
@@ -2134,6 +2185,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD4C8192075F71A0064ECC5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD8D2AD207C813400DF1155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD8D2B4207C813400DF1155 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2813,6 +2872,24 @@
 			};
 			name = Release;
 		};
+		EFD8D2B5207C813400DF1155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD8D2B6207C813400DF1155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EFEE5D082077398F0086610E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3226,6 +3303,15 @@
 			buildConfigurations = (
 				EFD4C81B2075F71A0064ECC5 /* Debug */,
 				EFD4C81C2075F71A0064ECC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD8D2B7207C813400DF1155 /* Build configuration list for PBXNativeTarget "35. Search Insert Position [LeetCode]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD8D2B5207C813400DF1155 /* Debug */,
+				EFD8D2B6207C813400DF1155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

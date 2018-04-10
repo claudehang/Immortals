@@ -7,12 +7,12 @@
 		<key>102. Linked List Cycle.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>3</integer>
 		</dict>
 		<key>103. Linked List Cycle II.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>6</integer>
 		</dict>
 		<key>104. Merge K Sorted Lists.xcscheme</key>
 		<dict>
@@ -22,17 +22,17 @@
 		<key>105. Copy List with Random Pointer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>5</integer>
 		</dict>
 		<key>113. Path Sum II [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>22</integer>
 		</dict>
 		<key>114. Flatten Binary Tree to Linked List [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>24</integer>
 		</dict>
 		<key>116. Jump Game.xcscheme</key>
 		<dict>
@@ -52,7 +52,7 @@
 		<key>153. Combination Sum II.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>21</integer>
 		</dict>
 		<key>165. Merge Two Sorted Lists.xcscheme</key>
 		<dict>
@@ -67,7 +67,7 @@
 		<key>174. Dungeon Game [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>32</integer>
+			<integer>30</integer>
 		</dict>
 		<key>18. Subsets II.xcscheme</key>
 		<dict>
@@ -77,47 +77,52 @@
 		<key>198. House Robber [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>26</integer>
+			<integer>25</integer>
 		</dict>
 		<key>199. Binary Tree Right Side View [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>26</integer>
 		</dict>
 		<key>236. Lowest Common Ancestor of a Binary Tree [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>24</integer>
+			<integer>23</integer>
 		</dict>
 		<key>300. Longest Increasing Subsequence [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>31</integer>
 		</dict>
 		<key>315. Count of Smaller Numbers After Self [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>20</integer>
 		</dict>
 		<key>322. Coin Change [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>27</integer>
 		</dict>
 		<key>33. N-Queens.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>18</integer>
 		</dict>
 		<key>35. Reverse Linked List.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
+		</dict>
+		<key>35. Search Insert Position [LeetCode].xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>33</integer>
 		</dict>
 		<key>36. Reverse Linked List II.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<key>376. Wiggle Subsequence [LeetCode].xcscheme</key>
 		<dict>
@@ -127,7 +132,7 @@
 		<key>380. Intersection of Two Linked Lists.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
 		<key>402. Remove K Dights [LeetCode].xcscheme</key>
 		<dict>
@@ -152,12 +157,12 @@
 		<key>53. Maximum Subarray [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>27</integer>
+			<integer>28</integer>
 		</dict>
 		<key>64. Minimum Path Sum [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>31</integer>
+			<integer>32</integer>
 		</dict>
 		<key>81. Data Stream Median.xcscheme</key>
 		<dict>

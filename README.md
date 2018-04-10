@@ -42,6 +42,9 @@ Immortals is a repo that implements problems on LintCode.
 + [199. Binary Tree Right Side View (LeetCode)](https://leetcode.com/problems/binary-tree-right-side-view/description/)    
 + [236. Lowest Common Ancestor of a Binary Tree (LeetCode)](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
 
+## Binary Search, Binary Sort Tree  
++ [35. Search Insert Position (LeetCode)](https://leetcode.com/problems/search-insert-position/description/)     
+
 ## Dynamic Programming
 + [53. Maximum Subarray (LeetCode)](https://leetcode.com/problems/maximum-subarray/description/)    
 + [64. Minimum Path Sum (LeetCode)](https://leetcode.com/problems/minimum-path-sum/description/)    
