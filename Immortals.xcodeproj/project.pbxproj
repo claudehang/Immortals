@@ -35,6 +35,7 @@
 		EFD4C80E2075EBC20064ECC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD4C80D2075EBC20064ECC5 /* main.cpp */; };
 		EFD4C8192075F71A0064ECC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD4C8182075F71A0064ECC5 /* main.cpp */; };
 		EFD8D2B4207C813400DF1155 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD8D2B3207C813400DF1155 /* main.cpp */; };
+		EFD8D2BF207C8E5300DF1155 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD8D2BE207C8E5300DF1155 /* main.cpp */; };
 		EFEE5D072077398F0086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D062077398F0086610E /* main.cpp */; };
 		EFEE5D12207742B20086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D11207742B20086610E /* main.cpp */; };
 		EFEE5D1D207748260086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D1C207748260086610E /* main.cpp */; };
@@ -314,6 +315,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		EFD8D2BA207C8E5300DF1155 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EFEE5D022077398E0086610E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -447,6 +457,8 @@
 		EFD4C8182075F71A0064ECC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFD8D2B1207C813400DF1155 /* 35. Search Insert Position [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "35. Search Insert Position [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD8D2B3207C813400DF1155 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFD8D2BC207C8E5300DF1155 /* 34. Search for a Range [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "34. Search for a Range [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD8D2BE207C8E5300DF1155 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFEE5D042077398E0086610E /* 17. Subsets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17. Subsets"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEE5D062077398F0086610E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFEE5D0F207742B20086610E /* 18. Subsets II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18. Subsets II"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -668,6 +680,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EFD8D2AE207C813400DF1155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD8D2B9207C8E5300DF1155 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -906,6 +925,7 @@
 				EF853538207B908400378FA5 /* 64. Minimum Path Sum [LeetCode] */,
 				EF853543207B94BF00378FA5 /* 174. Dungeon Game [LeetCode] */,
 				EFD8D2B2207C813400DF1155 /* 35. Search Insert Position [LeetCode] */,
+				EFD8D2BD207C8E5300DF1155 /* 34. Search for a Range [LeetCode] */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -951,6 +971,7 @@
 				EF853537207B908400378FA5 /* 64. Minimum Path Sum [LeetCode] */,
 				EF853542207B94BF00378FA5 /* 174. Dungeon Game [LeetCode] */,
 				EFD8D2B1207C813400DF1155 /* 35. Search Insert Position [LeetCode] */,
+				EFD8D2BC207C8E5300DF1155 /* 34. Search for a Range [LeetCode] */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1041,6 +1062,14 @@
 				EFD8D2B3207C813400DF1155 /* main.cpp */,
 			);
 			path = "35. Search Insert Position [LeetCode]";
+			sourceTree = "<group>";
+		};
+		EFD8D2BD207C8E5300DF1155 /* 34. Search for a Range [LeetCode] */ = {
+			isa = PBXGroup;
+			children = (
+				EFD8D2BE207C8E5300DF1155 /* main.cpp */,
+			);
+			path = "34. Search for a Range [LeetCode]";
 			sourceTree = "<group>";
 		};
 		EFEE5D052077398E0086610E /* 17. Subsets */ = {
@@ -1604,6 +1633,23 @@
 			productReference = EFD8D2B1207C813400DF1155 /* 35. Search Insert Position [LeetCode] */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFD8D2BB207C8E5300DF1155 /* 34. Search for a Range [LeetCode] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD8D2C0207C8E5300DF1155 /* Build configuration list for PBXNativeTarget "34. Search for a Range [LeetCode]" */;
+			buildPhases = (
+				EFD8D2B8207C8E5300DF1155 /* Sources */,
+				EFD8D2B9207C8E5300DF1155 /* Frameworks */,
+				EFD8D2BA207C8E5300DF1155 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "34. Search for a Range [LeetCode]";
+			productName = "34. Search for a Range [LeetCode]";
+			productReference = EFD8D2BC207C8E5300DF1155 /* 34. Search for a Range [LeetCode] */;
+			productType = "com.apple.product-type.tool";
+		};
 		EFEE5D032077398E0086610E /* 17. Subsets */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFEE5D0A2077398F0086610E /* Build configuration list for PBXNativeTarget "17. Subsets" */;
@@ -1869,6 +1915,10 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EFD8D2BB207C8E5300DF1155 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					EFEE5D032077398E0086610E = {
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
@@ -1953,6 +2003,7 @@
 				EF853536207B908400378FA5 /* 64. Minimum Path Sum [LeetCode] */,
 				EF853541207B94BF00378FA5 /* 174. Dungeon Game [LeetCode] */,
 				EFD8D2B0207C813400DF1155 /* 35. Search Insert Position [LeetCode] */,
+				EFD8D2BB207C8E5300DF1155 /* 34. Search for a Range [LeetCode] */,
 			);
 		};
 /* End PBXProject section */
@@ -2193,6 +2244,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD8D2B4207C813400DF1155 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD8D2B8207C8E5300DF1155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD8D2BF207C8E5300DF1155 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2890,6 +2949,24 @@
 			};
 			name = Release;
 		};
+		EFD8D2C1207C8E5300DF1155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD8D2C2207C8E5300DF1155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EFEE5D082077398F0086610E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3312,6 +3389,15 @@
 			buildConfigurations = (
 				EFD8D2B5207C813400DF1155 /* Debug */,
 				EFD8D2B6207C813400DF1155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD8D2C0207C8E5300DF1155 /* Build configuration list for PBXNativeTarget "34. Search for a Range [LeetCode]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD8D2C1207C8E5300DF1155 /* Debug */,
+				EFD8D2C2207C8E5300DF1155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

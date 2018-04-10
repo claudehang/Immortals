@@ -47,7 +47,7 @@
 		<key>120. Triangle [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>33</integer>
 		</dict>
 		<key>153. Combination Sum II.xcscheme</key>
 		<dict>
@@ -67,7 +67,7 @@
 		<key>174. Dungeon Game [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>29</integer>
 		</dict>
 		<key>18. Subsets II.xcscheme</key>
 		<dict>
@@ -92,7 +92,7 @@
 		<key>300. Longest Increasing Subsequence [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>31</integer>
+			<integer>30</integer>
 		</dict>
 		<key>315. Count of Smaller Numbers After Self [LeetCode].xcscheme</key>
 		<dict>
@@ -109,6 +109,11 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
+		<key>34. Search for a Range [LeetCode].xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>34</integer>
+		</dict>
 		<key>35. Reverse Linked List.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -117,7 +122,7 @@
 		<key>35. Search Insert Position [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>32</integer>
 		</dict>
 		<key>36. Reverse Linked List II.xcscheme</key>
 		<dict>
@@ -162,7 +167,7 @@
 		<key>64. Minimum Path Sum [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>32</integer>
+			<integer>31</integer>
 		</dict>
 		<key>81. Data Stream Median.xcscheme</key>
 		<dict>
