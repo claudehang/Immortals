@@ -51,7 +51,8 @@ Immortals is a repo that implements problems on LintCode.
 ## String, Hash Table    
 + [3. Longest Substring Without Repeating Characters (LeetCode)](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)      
 + [49. Group Anagrams (LeetCode)](https://leetcode.com/problems/group-anagrams/description/)    
-+ [187. Repeated DNA Sequences (LeetCode)](https://leetcode.com/problems/repeated-dna-sequences/description/)   
++ [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)    
++ [187. Repeated DNA Sequences (LeetCode)](https://leetcode.com/problems/repeated-dna-sequences/description/)    
 + [290. Word Pattern (LeetCode)](https://leetcode.com/problems/word-pattern/description/)       
 + [409. Longest Palindrome (LeetCode)](https://leetcode.com/problems/longest-palindrome/description/)    
 
