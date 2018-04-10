@@ -46,6 +46,7 @@ Immortals is a repo that implements problems on LintCode.
 + [33. Search in Rotated Sorted Array (LeetCode)](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)       
 + [34. Search for a Range (LeetCode)](https://leetcode.com/problems/search-for-a-range/description/)     
 + [35. Search Insert Position (LeetCode)](https://leetcode.com/problems/search-insert-position/description/)        
++ [449. Serialize and Deserialize BST (LeetCode)](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)     
 
 ## Dynamic Programming
 + [53. Maximum Subarray (LeetCode)](https://leetcode.com/problems/maximum-subarray/description/)    
