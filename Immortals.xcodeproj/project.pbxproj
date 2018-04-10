@@ -40,6 +40,7 @@
 		EFD8D2D5207C9EF000DF1155 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD8D2D4207C9EF000DF1155 /* main.cpp */; };
 		EFD8D2E0207CA60200DF1155 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD8D2DF207CA60200DF1155 /* main.cpp */; };
 		EFD8D2EB207CA7FC00DF1155 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD8D2EA207CA7FC00DF1155 /* main.cpp */; };
+		EFD8D2F6207CD59100DF1155 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD8D2F5207CD59100DF1155 /* main.cpp */; };
 		EFEE5D072077398F0086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D062077398F0086610E /* main.cpp */; };
 		EFEE5D12207742B20086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D11207742B20086610E /* main.cpp */; };
 		EFEE5D1D207748260086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D1C207748260086610E /* main.cpp */; };
@@ -364,6 +365,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		EFD8D2F1207CD59100DF1155 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EFEE5D022077398E0086610E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -507,6 +517,8 @@
 		EFD8D2DF207CA60200DF1155 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFD8D2E8207CA7FC00DF1155 /* 290. Word Pattern [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "290. Word Pattern [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD8D2EA207CA7FC00DF1155 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFD8D2F3207CD59100DF1155 /* 49. Group Anagrams [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49. Group Anagrams [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD8D2F5207CD59100DF1155 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFEE5D042077398E0086610E /* 17. Subsets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17. Subsets"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEE5D062077398F0086610E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFEE5D0F207742B20086610E /* 18. Subsets II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18. Subsets II"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -769,6 +781,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFD8D2F0207CD59100DF1155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFEE5D012077398E0086610E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1006,6 +1025,7 @@
 				EFD8D2D3207C9EF000DF1155 /* 449. Serialize and Deserialize BST [LeetCode] */,
 				EFD8D2DE207CA60200DF1155 /* 409. Longest Palindrome [LeetCode] */,
 				EFD8D2E9207CA7FC00DF1155 /* 290. Word Pattern [LeetCode] */,
+				EFD8D2F4207CD59100DF1155 /* 49. Group Anagrams [LeetCode] */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1056,6 +1076,7 @@
 				EFD8D2D2207C9EF000DF1155 /* 449. Serialize and Deserialize BST [LeetCode] */,
 				EFD8D2DD207CA60200DF1155 /* 409. Longest Palindrome [LeetCode] */,
 				EFD8D2E8207CA7FC00DF1155 /* 290. Word Pattern [LeetCode] */,
+				EFD8D2F3207CD59100DF1155 /* 49. Group Anagrams [LeetCode] */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1186,6 +1207,14 @@
 				EFD8D2EA207CA7FC00DF1155 /* main.cpp */,
 			);
 			path = "290. Word Pattern [LeetCode]";
+			sourceTree = "<group>";
+		};
+		EFD8D2F4207CD59100DF1155 /* 49. Group Anagrams [LeetCode] */ = {
+			isa = PBXGroup;
+			children = (
+				EFD8D2F5207CD59100DF1155 /* main.cpp */,
+			);
+			path = "49. Group Anagrams [LeetCode]";
 			sourceTree = "<group>";
 		};
 		EFEE5D052077398E0086610E /* 17. Subsets */ = {
@@ -1834,6 +1863,23 @@
 			productReference = EFD8D2E8207CA7FC00DF1155 /* 290. Word Pattern [LeetCode] */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFD8D2F2207CD59100DF1155 /* 49. Group Anagrams [LeetCode] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD8D2F7207CD59100DF1155 /* Build configuration list for PBXNativeTarget "49. Group Anagrams [LeetCode]" */;
+			buildPhases = (
+				EFD8D2EF207CD59100DF1155 /* Sources */,
+				EFD8D2F0207CD59100DF1155 /* Frameworks */,
+				EFD8D2F1207CD59100DF1155 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "49. Group Anagrams [LeetCode]";
+			productName = "49. Group Anagrams [LeetCode]";
+			productReference = EFD8D2F3207CD59100DF1155 /* 49. Group Anagrams [LeetCode] */;
+			productType = "com.apple.product-type.tool";
+		};
 		EFEE5D032077398E0086610E /* 17. Subsets */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFEE5D0A2077398F0086610E /* Build configuration list for PBXNativeTarget "17. Subsets" */;
@@ -2119,6 +2165,10 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EFD8D2F2207CD59100DF1155 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					EFEE5D032077398E0086610E = {
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
@@ -2208,6 +2258,7 @@
 				EFD8D2D1207C9EF000DF1155 /* 449. Serialize and Deserialize BST [LeetCode] */,
 				EFD8D2DC207CA60200DF1155 /* 409. Longest Palindrome [LeetCode] */,
 				EFD8D2E7207CA7FC00DF1155 /* 290. Word Pattern [LeetCode] */,
+				EFD8D2F2207CD59100DF1155 /* 49. Group Anagrams [LeetCode] */,
 			);
 		};
 /* End PBXProject section */
@@ -2488,6 +2539,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD8D2EB207CA7FC00DF1155 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD8D2EF207CD59100DF1155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD8D2F6207CD59100DF1155 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3275,6 +3334,24 @@
 			};
 			name = Release;
 		};
+		EFD8D2F8207CD59100DF1155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD8D2F9207CD59100DF1155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EFEE5D082077398F0086610E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3742,6 +3819,15 @@
 			buildConfigurations = (
 				EFD8D2ED207CA7FC00DF1155 /* Debug */,
 				EFD8D2EE207CA7FC00DF1155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD8D2F7207CD59100DF1155 /* Build configuration list for PBXNativeTarget "49. Group Anagrams [LeetCode]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD8D2F8207CD59100DF1155 /* Debug */,
+				EFD8D2F9207CD59100DF1155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
