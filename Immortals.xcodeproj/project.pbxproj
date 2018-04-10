@@ -42,6 +42,7 @@
 		EFD8D2EB207CA7FC00DF1155 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD8D2EA207CA7FC00DF1155 /* main.cpp */; };
 		EFD8D2F6207CD59100DF1155 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD8D2F5207CD59100DF1155 /* main.cpp */; };
 		EFD8D301207CD91400DF1155 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD8D300207CD91400DF1155 /* main.cpp */; };
+		EFD8D30C207CDD4500DF1155 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFD8D30B207CDD4500DF1155 /* main.cpp */; };
 		EFEE5D072077398F0086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D062077398F0086610E /* main.cpp */; };
 		EFEE5D12207742B20086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D11207742B20086610E /* main.cpp */; };
 		EFEE5D1D207748260086610E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFEE5D1C207748260086610E /* main.cpp */; };
@@ -384,6 +385,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		EFD8D307207CDD4500DF1155 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EFEE5D022077398E0086610E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -531,6 +541,8 @@
 		EFD8D2F5207CD59100DF1155 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFD8D2FE207CD91400DF1155 /* 3. Longest Substring Without Repeating Characters [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3. Longest Substring Without Repeating Characters [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD8D300207CD91400DF1155 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFD8D309207CDD4500DF1155 /* 187. Repeated DNA Sequences [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "187. Repeated DNA Sequences [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD8D30B207CDD4500DF1155 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFEE5D042077398E0086610E /* 17. Subsets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17. Subsets"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEE5D062077398F0086610E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFEE5D0F207742B20086610E /* 18. Subsets II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18. Subsets II"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -807,6 +819,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFD8D306207CDD4500DF1155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFEE5D012077398E0086610E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1046,6 +1065,7 @@
 				EFD8D2E9207CA7FC00DF1155 /* 290. Word Pattern [LeetCode] */,
 				EFD8D2F4207CD59100DF1155 /* 49. Group Anagrams [LeetCode] */,
 				EFD8D2FF207CD91400DF1155 /* 3. Longest Substring Without Repeating Characters [LeetCode] */,
+				EFD8D30A207CDD4500DF1155 /* 187. Repeated DNA Sequences [LeetCode] */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1098,6 +1118,7 @@
 				EFD8D2E8207CA7FC00DF1155 /* 290. Word Pattern [LeetCode] */,
 				EFD8D2F3207CD59100DF1155 /* 49. Group Anagrams [LeetCode] */,
 				EFD8D2FE207CD91400DF1155 /* 3. Longest Substring Without Repeating Characters [LeetCode] */,
+				EFD8D309207CDD4500DF1155 /* 187. Repeated DNA Sequences [LeetCode] */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1244,6 +1265,14 @@
 				EFD8D300207CD91400DF1155 /* main.cpp */,
 			);
 			path = "3. Longest Substring Without Repeating Characters [LeetCode]";
+			sourceTree = "<group>";
+		};
+		EFD8D30A207CDD4500DF1155 /* 187. Repeated DNA Sequences [LeetCode] */ = {
+			isa = PBXGroup;
+			children = (
+				EFD8D30B207CDD4500DF1155 /* main.cpp */,
+			);
+			path = "187. Repeated DNA Sequences [LeetCode]";
 			sourceTree = "<group>";
 		};
 		EFEE5D052077398E0086610E /* 17. Subsets */ = {
@@ -1926,6 +1955,23 @@
 			productReference = EFD8D2FE207CD91400DF1155 /* 3. Longest Substring Without Repeating Characters [LeetCode] */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFD8D308207CDD4500DF1155 /* 187. Repeated DNA Sequences [LeetCode] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD8D30D207CDD4500DF1155 /* Build configuration list for PBXNativeTarget "187. Repeated DNA Sequences [LeetCode]" */;
+			buildPhases = (
+				EFD8D305207CDD4500DF1155 /* Sources */,
+				EFD8D306207CDD4500DF1155 /* Frameworks */,
+				EFD8D307207CDD4500DF1155 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "187. Repeated DNA Sequences [LeetCode]";
+			productName = "187. Repeated DNA Sequences [LeetCode]";
+			productReference = EFD8D309207CDD4500DF1155 /* 187. Repeated DNA Sequences [LeetCode] */;
+			productType = "com.apple.product-type.tool";
+		};
 		EFEE5D032077398E0086610E /* 17. Subsets */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFEE5D0A2077398F0086610E /* Build configuration list for PBXNativeTarget "17. Subsets" */;
@@ -2219,6 +2265,10 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EFD8D308207CDD4500DF1155 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					EFEE5D032077398E0086610E = {
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
@@ -2310,6 +2360,7 @@
 				EFD8D2E7207CA7FC00DF1155 /* 290. Word Pattern [LeetCode] */,
 				EFD8D2F2207CD59100DF1155 /* 49. Group Anagrams [LeetCode] */,
 				EFD8D2FD207CD91400DF1155 /* 3. Longest Substring Without Repeating Characters [LeetCode] */,
+				EFD8D308207CDD4500DF1155 /* 187. Repeated DNA Sequences [LeetCode] */,
 			);
 		};
 /* End PBXProject section */
@@ -2606,6 +2657,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD8D301207CD91400DF1155 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD8D305207CDD4500DF1155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD8D30C207CDD4500DF1155 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3429,6 +3488,24 @@
 			};
 			name = Release;
 		};
+		EFD8D30E207CDD4500DF1155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD8D30F207CDD4500DF1155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EFEE5D082077398F0086610E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3914,6 +3991,15 @@
 			buildConfigurations = (
 				EFD8D303207CD91400DF1155 /* Debug */,
 				EFD8D304207CD91400DF1155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD8D30D207CDD4500DF1155 /* Build configuration list for PBXNativeTarget "187. Repeated DNA Sequences [LeetCode]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD8D30E207CDD4500DF1155 /* Debug */,
+				EFD8D30F207CDD4500DF1155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
