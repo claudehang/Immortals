@@ -48,7 +48,8 @@ Immortals is a repo that implements problems on LintCode.
 + [35. Search Insert Position (LeetCode)](https://leetcode.com/problems/search-insert-position/description/)        
 + [449. Serialize and Deserialize BST (LeetCode)](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)     
 
-## String, Hash Table  
+## String, Hash Table    
++ [3. Longest Substring Without Repeating Characters (LeetCode)](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)      
 + [49. Group Anagrams (LeetCode)](https://leetcode.com/problems/group-anagrams/description/)    
 + [290. Word Pattern (LeetCode)](https://leetcode.com/problems/word-pattern/description/)       
 + [409. Longest Palindrome (LeetCode)](https://leetcode.com/problems/longest-palindrome/description/)    
