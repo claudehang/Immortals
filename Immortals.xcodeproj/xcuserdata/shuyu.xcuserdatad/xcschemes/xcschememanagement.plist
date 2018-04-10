@@ -109,6 +109,11 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
+		<key>33. Search in Rotated Sorted Array [LeetCode].xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>35</integer>
+		</dict>
 		<key>34. Search for a Range [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
