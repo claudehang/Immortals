@@ -89,6 +89,11 @@
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>
+		<key>290. Word Pattern [LeetCode].xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>38</integer>
+		</dict>
 		<key>300. Longest Increasing Subsequence [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>

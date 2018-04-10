@@ -49,6 +49,7 @@ Immortals is a repo that implements problems on LintCode.
 + [449. Serialize and Deserialize BST (LeetCode)](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)     
 
 ## String, Hash Table  
++ [290. Word Pattern (LeetCode)](https://leetcode.com/problems/word-pattern/description/)       
 + [409. Longest Palindrome (LeetCode)](https://leetcode.com/problems/longest-palindrome/description/)    
 
 ## Dynamic Programming
