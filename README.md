@@ -63,7 +63,8 @@ Immortals is a repo that implements problems on LintCode.
 + [174. Dungeon Game(LeetCode)](https://leetcode.com/problems/dungeon-game/description/)    
 + [198. House Robber (LeetCode)](https://leetcode.com/problems/house-robber/description/)     
 + [300. Longest Increasing Subsequence (LeetCode)](https://leetcode.com/problems/longest-increasing-subsequence/description/)    
-+ [322. Coin Change (LeetCode)](https://leetcode.com/problems/coin-change/description/)     
++ [322. Coin Change (LeetCode)](https://leetcode.com/problems/coin-change/description/)
++ [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/description/)        
 
 
 

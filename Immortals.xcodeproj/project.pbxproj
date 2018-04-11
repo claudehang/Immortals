@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EF06C50F2073602E009960B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF06C50E2073602E009960B9 /* main.cpp */; };
 		EF06C51A20736320009960B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF06C51920736320009960B9 /* main.cpp */; };
+		EF151A0F207DDA0C00B7451B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF151A0E207DDA0C00B7451B /* main.cpp */; };
 		EF37C8EE2070B9F5005538ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF37C8ED2070B9F5005538ED /* main.cpp */; };
 		EF37C8F92070BE08005538ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF37C8F82070BE08005538ED /* main.cpp */; };
 		EF47E8AA207489300006DF96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF47E8A9207489300006DF96 /* main.cpp */; };
@@ -63,6 +64,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF06C51520736320009960B9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF151A0A207DDA0C00B7451B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -483,6 +493,8 @@
 		EF06C50E2073602E009960B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF06C51720736320009960B9 /* 81. Data Stream Median */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "81. Data Stream Median"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF06C51920736320009960B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF151A0C207DDA0C00B7451B /* 413. Arithmetic Slices [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "413. Arithmetic Slices [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF151A0E207DDA0C00B7451B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF37C8EB2070B9F5005538ED /* 165. Merge Two Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "165. Merge Two Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF37C8ED2070B9F5005538ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF37C8F62070BE08005538ED /* 104. Merge K Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "104. Merge K Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -580,6 +592,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF06C51420736320009960B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF151A09207DDA0C00B7451B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -920,6 +939,14 @@
 			path = "81. Data Stream Median";
 			sourceTree = "<group>";
 		};
+		EF151A0D207DDA0C00B7451B /* 413. Arithmetic Slices [LeetCode] */ = {
+			isa = PBXGroup;
+			children = (
+				EF151A0E207DDA0C00B7451B /* main.cpp */,
+			);
+			path = "413. Arithmetic Slices [LeetCode]";
+			sourceTree = "<group>";
+		};
 		EF37C8EC2070B9F5005538ED /* 165. Merge Two Sorted Lists */ = {
 			isa = PBXGroup;
 			children = (
@@ -1086,6 +1113,7 @@
 				EFD8D2FF207CD91400DF1155 /* 3. Longest Substring Without Repeating Characters [LeetCode] */,
 				EFD8D30A207CDD4500DF1155 /* 187. Repeated DNA Sequences [LeetCode] */,
 				EFD8D315207CDFDB00DF1155 /* 76. Minimum Window Substring [LeetCode] */,
+				EF151A0D207DDA0C00B7451B /* 413. Arithmetic Slices [LeetCode] */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1140,6 +1168,7 @@
 				EFD8D2FE207CD91400DF1155 /* 3. Longest Substring Without Repeating Characters [LeetCode] */,
 				EFD8D309207CDD4500DF1155 /* 187. Repeated DNA Sequences [LeetCode] */,
 				EFD8D314207CDFDB00DF1155 /* 76. Minimum Window Substring [LeetCode] */,
+				EF151A0C207DDA0C00B7451B /* 413. Arithmetic Slices [LeetCode] */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1387,6 +1416,23 @@
 			name = "81. Data Stream Median";
 			productName = "81. Data Stream Median";
 			productReference = EF06C51720736320009960B9 /* 81. Data Stream Median */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF151A0B207DDA0C00B7451B /* 413. Arithmetic Slices [LeetCode] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF151A12207DDA0C00B7451B /* Build configuration list for PBXNativeTarget "413. Arithmetic Slices [LeetCode]" */;
+			buildPhases = (
+				EF151A08207DDA0C00B7451B /* Sources */,
+				EF151A09207DDA0C00B7451B /* Frameworks */,
+				EF151A0A207DDA0C00B7451B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "413. Arithmetic Slices [LeetCode]";
+			productName = "413. Arithmetic Slices [LeetCode]";
+			productReference = EF151A0C207DDA0C00B7451B /* 413. Arithmetic Slices [LeetCode] */;
 			productType = "com.apple.product-type.tool";
 		};
 		EF37C8EA2070B9F5005538ED /* 165. Merge Two Sorted Lists */ = {
@@ -2171,6 +2217,10 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EF151A0B207DDA0C00B7451B = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					EF37C8EA2070B9F5005538ED = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -2412,6 +2462,7 @@
 				EFD8D2FD207CD91400DF1155 /* 3. Longest Substring Without Repeating Characters [LeetCode] */,
 				EFD8D308207CDD4500DF1155 /* 187. Repeated DNA Sequences [LeetCode] */,
 				EFD8D313207CDFDB00DF1155 /* 76. Minimum Window Substring [LeetCode] */,
+				EF151A0B207DDA0C00B7451B /* 413. Arithmetic Slices [LeetCode] */,
 			);
 		};
 /* End PBXProject section */
@@ -2430,6 +2481,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF06C51A20736320009960B9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF151A08207DDA0C00B7451B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF151A0F207DDA0C00B7451B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2820,6 +2879,24 @@
 			name = Debug;
 		};
 		EF06C51D20736320009960B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF151A10207DDA0C00B7451B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF151A11207DDA0C00B7451B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -3744,6 +3821,15 @@
 			buildConfigurations = (
 				EF06C51C20736320009960B9 /* Debug */,
 				EF06C51D20736320009960B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF151A12207DDA0C00B7451B /* Build configuration list for PBXNativeTarget "413. Arithmetic Slices [LeetCode]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF151A10207DDA0C00B7451B /* Debug */,
+				EF151A11207DDA0C00B7451B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
