@@ -25,6 +25,7 @@
 		EF9954252078AAAE00EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9954242078AAAE00EE59C2 /* main.cpp */; };
 		EF9954302078EC9F00EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF99542F2078EC9F00EE59C2 /* main.cpp */; };
 		EF9954462078F10600EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9954452078F10600EE59C2 /* main.cpp */; };
+		EFB19DC1207F795700B85464 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB19DC0207F795700B85464 /* main.cpp */; };
 		EFB570C0206F768800C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570BF206F768800C3AD35 /* main.cpp */; };
 		EFB570C2206F773A00C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570C1206F773A00C3AD35 /* main.cpp */; };
 		EFB570CA206F9B5300C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570C9206F9B5300C3AD35 /* main.cpp */; };
@@ -226,6 +227,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EF9954412078F10600EE59C2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFB19DBC207F795700B85464 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -527,6 +537,8 @@
 		EF9954382078F0F400EE59C2 /* 199. Binary Tree Right Side View */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "199. Binary Tree Right Side View"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9954432078F10600EE59C2 /* 199. Binary Tree Right Side View [LeetCode] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "199. Binary Tree Right Side View [LeetCode]"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9954452078F10600EE59C2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFB19DBE207F795700B85464 /* 9. Fizz Buzz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9. Fizz Buzz"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB19DC0207F795700B85464 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFB570A2206F753A00C3AD35 /* 36. Reverse Linked List II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "36. Reverse Linked List II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB570B8206F764600C3AD35 /* 35. Reverse Linked List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "35. Reverse Linked List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB570BF206F768800C3AD35 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -718,6 +730,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EF9954402078F10600EE59C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB19DBB207F795700B85464 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1067,6 +1086,14 @@
 			path = "199. Binary Tree Right Side View [LeetCode]";
 			sourceTree = "<group>";
 		};
+		EFB19DBF207F795700B85464 /* 9. Fizz Buzz */ = {
+			isa = PBXGroup;
+			children = (
+				EFB19DC0207F795700B85464 /* main.cpp */,
+			);
+			path = "9. Fizz Buzz";
+			sourceTree = "<group>";
+		};
 		EFB5707F206F6E8000C3AD35 = {
 			isa = PBXGroup;
 			children = (
@@ -1114,6 +1141,7 @@
 				EFD8D30A207CDD4500DF1155 /* 187. Repeated DNA Sequences [LeetCode] */,
 				EFD8D315207CDFDB00DF1155 /* 76. Minimum Window Substring [LeetCode] */,
 				EF151A0D207DDA0C00B7451B /* 413. Arithmetic Slices [LeetCode] */,
+				EFB19DBF207F795700B85464 /* 9. Fizz Buzz */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1169,6 +1197,7 @@
 				EFD8D309207CDD4500DF1155 /* 187. Repeated DNA Sequences [LeetCode] */,
 				EFD8D314207CDFDB00DF1155 /* 76. Minimum Window Substring [LeetCode] */,
 				EF151A0C207DDA0C00B7451B /* 413. Arithmetic Slices [LeetCode] */,
+				EFB19DBE207F795700B85464 /* 9. Fizz Buzz */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1722,6 +1751,23 @@
 			name = "199. Binary Tree Right Side View [LeetCode]";
 			productName = "199. Binary Tree Right Side View [LeetCode]";
 			productReference = EF9954432078F10600EE59C2 /* 199. Binary Tree Right Side View [LeetCode] */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFB19DBD207F795700B85464 /* 9. Fizz Buzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB19DC4207F795700B85464 /* Build configuration list for PBXNativeTarget "9. Fizz Buzz" */;
+			buildPhases = (
+				EFB19DBA207F795700B85464 /* Sources */,
+				EFB19DBB207F795700B85464 /* Frameworks */,
+				EFB19DBC207F795700B85464 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9. Fizz Buzz";
+			productName = "9. Fizz Buzz";
+			productReference = EFB19DBE207F795700B85464 /* 9. Fizz Buzz */;
 			productType = "com.apple.product-type.tool";
 		};
 		EFB570A1206F753A00C3AD35 /* 36. Reverse Linked List II */ = {
@@ -2289,6 +2335,10 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EFB19DBD207F795700B85464 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					EFB570A1206F753A00C3AD35 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -2463,6 +2513,7 @@
 				EFD8D308207CDD4500DF1155 /* 187. Repeated DNA Sequences [LeetCode] */,
 				EFD8D313207CDFDB00DF1155 /* 76. Minimum Window Substring [LeetCode] */,
 				EF151A0B207DDA0C00B7451B /* 413. Arithmetic Slices [LeetCode] */,
+				EFB19DBD207F795700B85464 /* 9. Fizz Buzz */,
 			);
 		};
 /* End PBXProject section */
@@ -2623,6 +2674,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF9954462078F10600EE59C2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB19DBA207F795700B85464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB19DC1207F795700B85464 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3199,6 +3258,24 @@
 			name = Debug;
 		};
 		EF9954492078F10600EE59C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFB19DC2207F795700B85464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFB19DC3207F795700B85464 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -3983,6 +4060,15 @@
 			buildConfigurations = (
 				EF9954482078F10600EE59C2 /* Debug */,
 				EF9954492078F10600EE59C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB19DC4207F795700B85464 /* Build configuration list for PBXNativeTarget "9. Fizz Buzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB19DC2207F795700B85464 /* Debug */,
+				EFB19DC3207F795700B85464 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

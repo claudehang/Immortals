@@ -67,6 +67,9 @@ Immortals is a repo that implements problems on LintCode.
 + [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/description/)        
 
 
+## Other
++ [9. Fizz Buzz](http://www.lintcode.com/en/problem/fizz-buzz/)     
+
 
 # TODO
 - More implements of problems.
