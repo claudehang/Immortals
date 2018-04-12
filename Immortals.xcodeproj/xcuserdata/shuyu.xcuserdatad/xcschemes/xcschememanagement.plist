@@ -77,7 +77,7 @@
 		<key>187. Repeated DNA Sequences [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>41</integer>
+			<integer>44</integer>
 		</dict>
 		<key>198. House Robber [LeetCode].xcscheme</key>
 		<dict>
@@ -149,6 +149,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>366. Fibonacci.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>45</integer>
+		</dict>
 		<key>376. Wiggle Subsequence [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -172,7 +177,7 @@
 		<key>413. Arithmetic Slices [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>41</integer>
 		</dict>
 		<key>427. Generate Parentheses.xcscheme</key>
 		<dict>
@@ -212,7 +217,7 @@
 		<key>76. Minimum Window Substring [LeetCode].xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>43</integer>
+			<integer>42</integer>
 		</dict>
 		<key>81. Data Stream Median.xcscheme</key>
 		<dict>
@@ -222,7 +227,7 @@
 		<key>9. Fizz Buzz.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>44</integer>
+			<integer>43</integer>
 		</dict>
 		<key>96. Partition List.xcscheme</key>
 		<dict>

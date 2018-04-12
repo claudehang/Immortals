@@ -34,6 +34,7 @@ Immortals is a repo that implements problems on LintCode.
 + [33. N-Queens](http://www.lintcode.com/en/problem/n-queens/)    
 + [153. Combination Sum II](http://www.lintcode.com/en/problem/combination-sum-ii/)     
 + [315. Count of Smaller Numbers After Self (LeetCode)](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)     
++ [366. Fibonacci](http://www.lintcode.com/en/problem/fibonacci/)     
 + [427. Generate Parentheses](http://www.lintcode.com/en/problem/generate-parentheses/)      
 
 ## Binary Tree, Graph   

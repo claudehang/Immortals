@@ -26,6 +26,7 @@
 		EF9954302078EC9F00EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF99542F2078EC9F00EE59C2 /* main.cpp */; };
 		EF9954462078F10600EE59C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9954452078F10600EE59C2 /* main.cpp */; };
 		EFB19DC1207F795700B85464 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB19DC0207F795700B85464 /* main.cpp */; };
+		EFB19DCC207F826300B85464 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB19DCB207F826300B85464 /* main.cpp */; };
 		EFB570C0206F768800C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570BF206F768800C3AD35 /* main.cpp */; };
 		EFB570C2206F773A00C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570C1206F773A00C3AD35 /* main.cpp */; };
 		EFB570CA206F9B5300C3AD35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB570C9206F9B5300C3AD35 /* main.cpp */; };
@@ -236,6 +237,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EFB19DBC207F795700B85464 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFB19DC7207F826300B85464 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -539,6 +549,8 @@
 		EF9954452078F10600EE59C2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFB19DBE207F795700B85464 /* 9. Fizz Buzz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9. Fizz Buzz"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB19DC0207F795700B85464 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EFB19DC9207F826300B85464 /* 366. Fibonacci */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "366. Fibonacci"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB19DCB207F826300B85464 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EFB570A2206F753A00C3AD35 /* 36. Reverse Linked List II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "36. Reverse Linked List II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB570B8206F764600C3AD35 /* 35. Reverse Linked List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "35. Reverse Linked List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB570BF206F768800C3AD35 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -737,6 +749,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EFB19DBB207F795700B85464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB19DC6207F826300B85464 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1094,6 +1113,14 @@
 			path = "9. Fizz Buzz";
 			sourceTree = "<group>";
 		};
+		EFB19DCA207F826300B85464 /* 366. Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				EFB19DCB207F826300B85464 /* main.cpp */,
+			);
+			path = "366. Fibonacci";
+			sourceTree = "<group>";
+		};
 		EFB5707F206F6E8000C3AD35 = {
 			isa = PBXGroup;
 			children = (
@@ -1142,6 +1169,7 @@
 				EFD8D315207CDFDB00DF1155 /* 76. Minimum Window Substring [LeetCode] */,
 				EF151A0D207DDA0C00B7451B /* 413. Arithmetic Slices [LeetCode] */,
 				EFB19DBF207F795700B85464 /* 9. Fizz Buzz */,
+				EFB19DCA207F826300B85464 /* 366. Fibonacci */,
 				EFB57089206F6E8000C3AD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1198,6 +1226,7 @@
 				EFD8D314207CDFDB00DF1155 /* 76. Minimum Window Substring [LeetCode] */,
 				EF151A0C207DDA0C00B7451B /* 413. Arithmetic Slices [LeetCode] */,
 				EFB19DBE207F795700B85464 /* 9. Fizz Buzz */,
+				EFB19DC9207F826300B85464 /* 366. Fibonacci */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1770,6 +1799,23 @@
 			productReference = EFB19DBE207F795700B85464 /* 9. Fizz Buzz */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFB19DC8207F826300B85464 /* 366. Fibonacci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB19DCD207F826300B85464 /* Build configuration list for PBXNativeTarget "366. Fibonacci" */;
+			buildPhases = (
+				EFB19DC5207F826300B85464 /* Sources */,
+				EFB19DC6207F826300B85464 /* Frameworks */,
+				EFB19DC7207F826300B85464 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "366. Fibonacci";
+			productName = "366. Fibonacci";
+			productReference = EFB19DC9207F826300B85464 /* 366. Fibonacci */;
+			productType = "com.apple.product-type.tool";
+		};
 		EFB570A1206F753A00C3AD35 /* 36. Reverse Linked List II */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFB570A6206F753A00C3AD35 /* Build configuration list for PBXNativeTarget "36. Reverse Linked List II" */;
@@ -2339,6 +2385,10 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
+					EFB19DC8207F826300B85464 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 					EFB570A1206F753A00C3AD35 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -2514,6 +2564,7 @@
 				EFD8D313207CDFDB00DF1155 /* 76. Minimum Window Substring [LeetCode] */,
 				EF151A0B207DDA0C00B7451B /* 413. Arithmetic Slices [LeetCode] */,
 				EFB19DBD207F795700B85464 /* 9. Fizz Buzz */,
+				EFB19DC8207F826300B85464 /* 366. Fibonacci */,
 			);
 		};
 /* End PBXProject section */
@@ -2682,6 +2733,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFB19DC1207F795700B85464 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB19DC5207F826300B85464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB19DCC207F826300B85464 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3276,6 +3335,24 @@
 			name = Debug;
 		};
 		EFB19DC3207F795700B85464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFB19DCE207F826300B85464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFB19DCF207F826300B85464 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -4069,6 +4146,15 @@
 			buildConfigurations = (
 				EFB19DC2207F795700B85464 /* Debug */,
 				EFB19DC3207F795700B85464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB19DCD207F826300B85464 /* Build configuration list for PBXNativeTarget "366. Fibonacci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB19DCE207F826300B85464 /* Debug */,
+				EFB19DCF207F826300B85464 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
